@@ -30,6 +30,7 @@
 			<Item Name="Expectation Test.lvclass" Type="LVClass" URL="../Expectation Test/Expectation Test.lvclass"/>
 			<Item Name="One Expectation Test.lvclass" Type="LVClass" URL="../Mock Test/One Expectation Test.lvclass"/>
 			<Item Name="One or More Expectation Test.lvclass" Type="LVClass" URL="../One or More Test/One or More Expectation Test.lvclass"/>
+			<Item Name="Argument Comparison Test.lvclass" Type="LVClass" URL="../Argument Comparison Test/Argument Comparison Test.lvclass"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">

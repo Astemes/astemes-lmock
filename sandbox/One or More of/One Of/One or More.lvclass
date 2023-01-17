@@ -23,6 +23,18 @@
 	<Item Name="One or More.ctl" Type="Class Private Data" URL="One or More.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Private" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Increment Call Count.vi" Type="VI" URL="../Private/Increment Call Count.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$J!!!!"Q!%!!!!)E"Q!"Y!!"%06EEA1W&amp;M&lt;#ZM&gt;G.M98.T!!&gt;733"$97RM!!N!!Q!&amp;&gt;G&amp;M&gt;75!(E"U!!)!!1!#%E6Y='6D&gt;'6E)%.B&lt;'RT)'^V&gt;!!!)E"Q!"Y!!"%06EEA1W&amp;M&lt;#ZM&gt;G.M98.T!!&gt;$97RM)'FO!"R!&gt;!!#!!%!!B&amp;&amp;?("F9X2F:#"$97RM=S"J&lt;A"5!0!!$!!!!!!!!!!$!!!!!!!!!!!!!!!!!!1!"1-!!(A!!!!!!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!!!!%A!!!!!"!!9!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+		</Item>
+	</Item>
 	<Item Name="One or More.vi" Type="VI" URL="../../Mock/One or More.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%-!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#*!=!!?!!!/$%VP9WMO&lt;(:D&lt;'&amp;T=Q!!#%VP9WMA&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#"!=!!?!!!/$%VP9WMO&lt;(:D&lt;'&amp;T=Q!!"UVP9WMA;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -46,15 +58,6 @@
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
-	</Item>
-	<Item Name="Increment Call Count.vi" Type="VI" URL="../Private/Increment Call Count.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$J!!!!"Q!%!!!!)E"Q!"Y!!"%06EEA1W&amp;M&lt;#ZM&gt;G.M98.T!!&gt;733"$97RM!!N!!Q!&amp;&gt;G&amp;M&gt;75!(E"U!!)!!1!#%E6Y='6D&gt;'6E)%.B&lt;'RT)'^V&gt;!!!)E"Q!"Y!!"%06EEA1W&amp;M&lt;#ZM&gt;G.M98.T!!&gt;$97RM)'FO!"R!&gt;!!#!!%!!B&amp;&amp;?("F9X2F:#"$97RM=S"J&lt;A"5!0!!$!!!!!!!!!!$!!!!!!!!!!!!!!!!!!1!"1-!!(A!!!!!!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!!!!%A!!!!!"!!9!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
