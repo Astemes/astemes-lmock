@@ -1,12 +1,16 @@
 pipeline {
-	agent any
+	agent {
+        label 'LV2020'
+    }
 	environment{
-		PROJECT_TITLE = "NAME OF PROJECT"
-		REPO_URL = "https://github.com/astemes/NAME_OF_REPOSITORY"
+		PROJECT_TITLE = "Astemes LMock"
+		REPO_URL = "https://github.com/astemes/lmock"
 		AUTHOR = "Anton Sundqvist"
-		INITIAL_RELEASE = 2022
-		LV_PROJECT_PATH = "source\\Project.lvproj"
-		LV_BUILD_SPEC = "Build Specification"
+		INITIAL_RELEASE = 2023
+		LV_PROJECT_PATH = "source\\LMock.lvproj"
+		LV_BUILD_SPEC = "LMock"
+		LV_VIPB_PATH = "source\\LMock.vipb"
+		LV_VERSION = "20.0"
 	}
 	stages {
 		stage('Initialize') {
@@ -32,12 +36,8 @@ pipeline {
 			steps {
 				//Execute LabVIEW build spec
 				buildLVBuildSpec "${LV_PROJECT_PATH}", "${LV_BUILD_SPEC}"
-				
 				//Build mkdocs documentation
 				buildDocs "${PROJECT_TITLE}", "${REPO_URL}", "${AUTHOR}", "${INITIAL_RELEASE}"
-				
-				//If buildinga package for release, set the FILE_PATH variable
-				script{FILE_PATH = "path to built release"}
 			}
 		}
 		stage('Deploy') {
@@ -50,8 +50,9 @@ pipeline {
 				GITHUB_TOKEN = credentials('github-token')
 			}
 			steps{
+				script{VIP_FILE_PATH = buildVIPackage "${LV_VIPB_PATH}", "${LV_VERSION}", "${COMMIT_TAG}"}
 				deployGithubPages()
-				deployGithubRelease "${REPO_URL}", "${COMMIT_TAG}", "${FILE_PATH}"
+				deployGithubRelease "${REPO_URL}", "${COMMIT_TAG}", "${VIP_FILE_PATH}"
 			}
 		}
 	}	
