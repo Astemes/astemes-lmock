@@ -10,11 +10,17 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Comparators" Type="Folder">
+			<Item Name="Identical Comparator.lvclass" Type="LVClass" URL="../Identical Comparator/Identical Comparator.lvclass"/>
+			<Item Name="Identical Inputs Comparator.lvclass" Type="LVClass" URL="../Indentical Inputs Comparator/Identical Inputs Comparator.lvclass"/>
+			<Item Name="Tolerant Numeric Comparator.lvclass" Type="LVClass" URL="../Tolerant Numeric Comparator/Tolerant Numeric Comparator.lvclass"/>
+		</Item>
 		<Item Name="Expectations" Type="Folder">
 			<Item Name="One or More.lvclass" Type="LVClass" URL="../One or More of/One Of/One or More.lvclass"/>
 			<Item Name="One.lvclass" Type="LVClass" URL="../One Of/One.lvclass"/>
 		</Item>
 		<Item Name="Framework" Type="Folder">
+			<Item Name="Comparator.lvclass" Type="LVClass" URL="../Comparator/Comparator.lvclass"/>
 			<Item Name="Expectation.lvclass" Type="LVClass" URL="../Expectation/Expectation.lvclass"/>
 			<Item Name="Mock.lvclass" Type="LVClass" URL="../Mock/Mock.lvclass"/>
 			<Item Name="Verifier.lvclass" Type="LVClass" URL="../Validator/Verifier.lvclass"/>
@@ -24,9 +30,11 @@
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Test Interface.lvclass" Type="LVClass" URL="../Test Interface/Test Interface.lvclass"/>
 			<Item Name="Test Interface Mock.lvclass" Type="LVClass" URL="../Test Interface Mock/Test Interface Mock.lvclass"/>
+			<Item Name="Mock VI Call.lvclass" Type="LVClass" URL="../Mock VI Call/Mock VI Call.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Tolerant Numeric Comparator Test.lvclass" Type="LVClass" URL="../Tolerant Numeric Comparator Test/Tolerant Numeric Comparator Test.lvclass"/>
 			<Item Name="Expectation Test.lvclass" Type="LVClass" URL="../Expectation Test/Expectation Test.lvclass"/>
 			<Item Name="One Expectation Test.lvclass" Type="LVClass" URL="../Mock Test/One Expectation Test.lvclass"/>
 			<Item Name="One or More Expectation Test.lvclass" Type="LVClass" URL="../One or More Test/One or More Expectation Test.lvclass"/>
