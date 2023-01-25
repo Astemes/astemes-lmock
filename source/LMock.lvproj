@@ -11,9 +11,13 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Comparators" Type="Folder">
-			<Item Name="Identical Comparator.lvclass" Type="LVClass" URL="../Comparators/Identical Comparator/Identical Comparator.lvclass"/>
-			<Item Name="Identical Inputs Comparator.lvclass" Type="LVClass" URL="../Comparators/Indentical Inputs Comparator/Identical Inputs Comparator.lvclass"/>
-			<Item Name="Tolerant Numeric Comparator.lvclass" Type="LVClass" URL="../Comparators/Tolerant Numeric Comparator/Tolerant Numeric Comparator.lvclass"/>
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Identical Inputs Comparator.lvclass" Type="LVClass" URL="../Comparators/Identical Comparator/Identical Inputs Comparator.lvclass"/>
+			<Item Name="Identical Arguments Comparator.lvclass" Type="LVClass" URL="../Comparators/Indentical Inputs Comparator/Identical Arguments Comparator.lvclass"/>
+			<Item Name="Tolerant Numeric Argument Comparator.lvclass" Type="LVClass" URL="../Comparators/Tolerant Numeric Comparator/Tolerant Numeric Argument Comparator.lvclass"/>
+			<Item Name="String Argument Matching Comparator.lvclass" Type="LVClass" URL="../Comparators/String Argument Matching Comparator/String Argument Matching Comparator.lvclass"/>
+			<Item Name="Ignore Inputs Comparator.lvclass" Type="LVClass" URL="../Comparators/Ignore Inputs Comparator/Ignore Inputs Comparator.lvclass"/>
+			<Item Name="Error Input Comparator.lvclass" Type="LVClass" URL="../Comparators/Error Input Comparator/Error Input Comparator.lvclass"/>
 		</Item>
 		<Item Name="Expectations" Type="Folder">
 			<Item Name="One or More.lvclass" Type="LVClass" URL="../Expectations/One or More/One or More.lvclass"/>
