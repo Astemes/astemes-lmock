@@ -30,6 +30,9 @@
 			<Item Name="Verifier.lvclass" Type="LVClass" URL="../Framework/Verifier/Verifier.lvclass"/>
 			<Item Name="VI Call.lvclass" Type="LVClass" URL="../Framework/VI Call/VI Call.lvclass"/>
 		</Item>
+		<Item Name="Scripting" Type="Folder">
+			<Item Name="Interface Identifier.lvclass" Type="LVClass" URL="../Scripting/Interface Identifier/Interface Identifier.lvclass"/>
+		</Item>
 		<Item Name="Test Doubles" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Test Interface.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Test Interface/Test Interface.lvclass"/>
@@ -38,6 +41,7 @@
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Interface Identifier Test.lvclass" Type="LVClass" URL="../../tests/Interface Identifier Test/Interface Identifier Test.lvclass"/>
 			<Item Name="Tolerant Numeric Comparator Test.lvclass" Type="LVClass" URL="../../tests/Tolerant Numeric Comparator Test/Tolerant Numeric Comparator Test.lvclass"/>
 			<Item Name="Expectation Test.lvclass" Type="LVClass" URL="../../tests/Expectation Test/Expectation Test.lvclass"/>
 			<Item Name="One Expectation Test.lvclass" Type="LVClass" URL="../../tests/One Expectation Test/One Expectation Test.lvclass"/>
@@ -51,6 +55,7 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
+				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 				<Item Name="LUnit Runnable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Runnable.lvclass"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="Test Case.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Case.lvclass"/>
