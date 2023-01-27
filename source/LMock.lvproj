@@ -32,6 +32,7 @@
 		</Item>
 		<Item Name="Scripting" Type="Folder">
 			<Item Name="Interface Identifier.lvclass" Type="LVClass" URL="../Scripting/Interface Identifier/Interface Identifier.lvclass"/>
+			<Item Name="Mock Class Generator.lvclass" Type="LVClass" URL="../Mock Class Generator/Mock Class Generator.lvclass"/>
 		</Item>
 		<Item Name="Test Doubles" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -47,19 +48,25 @@
 			<Item Name="One Expectation Test.lvclass" Type="LVClass" URL="../../tests/One Expectation Test/One Expectation Test.lvclass"/>
 			<Item Name="One or More Expectation Test.lvclass" Type="LVClass" URL="../../tests/One or More Expectation Test/One or More Expectation Test.lvclass"/>
 			<Item Name="Argument Comparison Test.lvclass" Type="LVClass" URL="../../tests/Argument Comparison Test/Argument Comparison Test.lvclass"/>
+			<Item Name="Test Class.lvclass" Type="LVClass" URL="../../tests/Mock Class Generator Test/Test Class/Test Class.lvclass"/>
+			<Item Name="Child Test Class.lvclass" Type="LVClass" URL="../../tests/Mock Class Generator Test/Child Test Class/Child Test Class.lvclass"/>
 		</Item>
+		<Item Name="Mock Class Generator Test.lvclass" Type="LVClass" URL="../../tests/Mock Class Generator Test/Mock Class Generator Test.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 				<Item Name="LUnit Runnable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Runnable.lvclass"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
+				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Test Case.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Case.lvclass"/>
 			</Item>
+			<Item Name="Untitled 4 (SubVI)" Type="VI"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LMock" Type="Source Distribution">
