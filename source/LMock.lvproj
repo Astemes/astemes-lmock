@@ -52,7 +52,6 @@
 		</Item>
 		<Item Name="Mock Class Generator Test Doubles.lvlib" Type="Library" URL="../../tests/Mock Class Generator Test/Mock Class Generator Test Doubles.lvlib"/>
 		<Item Name="Mock Class Generator Test.lvclass" Type="LVClass" URL="../../tests/Mock Class Generator Test/Mock Class Generator Test.lvclass"/>
-		<Item Name="Testclass.lvclass" Type="LVClass" URL="../../../../Users/AntonSundqvist/Desktop/tempdir/Testclass.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
