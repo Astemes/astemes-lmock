@@ -48,9 +48,11 @@
 			<Item Name="One Expectation Test.lvclass" Type="LVClass" URL="../../tests/One Expectation Test/One Expectation Test.lvclass"/>
 			<Item Name="One or More Expectation Test.lvclass" Type="LVClass" URL="../../tests/One or More Expectation Test/One or More Expectation Test.lvclass"/>
 			<Item Name="Argument Comparison Test.lvclass" Type="LVClass" URL="../../tests/Argument Comparison Test/Argument Comparison Test.lvclass"/>
+			<Item Name="Mock Generation Demo.vi" Type="VI" URL="../../tests/Demo/Mock Generation Demo.vi"/>
 		</Item>
 		<Item Name="Mock Class Generator Test Doubles.lvlib" Type="Library" URL="../../tests/Mock Class Generator Test/Mock Class Generator Test Doubles.lvlib"/>
 		<Item Name="Mock Class Generator Test.lvclass" Type="LVClass" URL="../../tests/Mock Class Generator Test/Mock Class Generator Test.lvclass"/>
+		<Item Name="Testclass.lvclass" Type="LVClass" URL="../../../../Users/AntonSundqvist/Desktop/tempdir/Testclass.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>

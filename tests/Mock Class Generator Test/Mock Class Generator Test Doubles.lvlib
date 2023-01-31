@@ -6,4 +6,5 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Child Test Class.lvclass" Type="LVClass" URL="../Child Test Class/Child Test Class.lvclass"/>
 	<Item Name="Test Class.lvclass" Type="LVClass" URL="../Test Class/Test Class.lvclass"/>
+	<Item Name="Test Interface.lvclass" Type="LVClass" URL="../Test Interface/Test Interface.lvclass"/>
 </Library>
