@@ -52,7 +52,6 @@
 			<Item Name="Argument Comparison Test.lvclass" Type="LVClass" URL="../../tests/Argument Comparison Test/Argument Comparison Test.lvclass"/>
 			<Item Name="Mock Generation Demo.vi" Type="VI" URL="../../tests/Demo/Mock Generation Demo.vi"/>
 		</Item>
-		<Item Name="lvtemporary_743185.lvclass" Type="LVClass" URL="../../../../Users/AntonSundqvist/AppData/Local/Temp/lvtemporary_743185/lvtemporary_743185.lvclass"/>
 		<Item Name="Mock Class Generator Test Doubles.lvlib" Type="Library" URL="../../tests/Mock Class Generator Test/Mock Class Generator Test Doubles.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
