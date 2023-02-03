@@ -12,9 +12,9 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Comparators" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Identical Inputs Comparator.lvclass" Type="LVClass" URL="../Comparators/Identical Comparator/Identical Inputs Comparator.lvclass"/>
-			<Item Name="Identical Arguments Comparator.lvclass" Type="LVClass" URL="../Comparators/Indentical Inputs Comparator/Identical Arguments Comparator.lvclass"/>
-			<Item Name="Tolerant Numeric Argument Comparator.lvclass" Type="LVClass" URL="../Comparators/Tolerant Numeric Comparator/Tolerant Numeric Argument Comparator.lvclass"/>
+			<Item Name="Identical Inputs Comparator.lvclass" Type="LVClass" URL="../Comparators/Identical Inputs Comparators/Identical Inputs Comparator.lvclass"/>
+			<Item Name="Identical Arguments Comparator.lvclass" Type="LVClass" URL="../Comparators/Identical Arguments Comparator/Identical Arguments Comparator.lvclass"/>
+			<Item Name="Tolerant Numeric Argument Comparator.lvclass" Type="LVClass" URL="../Comparators/Tolerant Numeric Argument Comparator/Tolerant Numeric Argument Comparator.lvclass"/>
 			<Item Name="String Argument Matching Comparator.lvclass" Type="LVClass" URL="../Comparators/String Argument Matching Comparator/String Argument Matching Comparator.lvclass"/>
 			<Item Name="Ignore Inputs Comparator.lvclass" Type="LVClass" URL="../Comparators/Ignore Inputs Comparator/Ignore Inputs Comparator.lvclass"/>
 			<Item Name="Error Input Comparator.lvclass" Type="LVClass" URL="../Comparators/Error Input Comparator/Error Input Comparator.lvclass"/>
@@ -24,6 +24,7 @@
 			<Item Name="One.lvclass" Type="LVClass" URL="../Expectations/One/One.lvclass"/>
 		</Item>
 		<Item Name="Framework" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Comparator.lvclass" Type="LVClass" URL="../Framework/Comparator/Comparator.lvclass"/>
 			<Item Name="Expectation.lvclass" Type="LVClass" URL="../Framework/Expectation/Expectation.lvclass"/>
 			<Item Name="Mock.lvclass" Type="LVClass" URL="../Framework/Mock/Mock.lvclass"/>
@@ -52,7 +53,6 @@
 			<Item Name="Argument Comparison Test.lvclass" Type="LVClass" URL="../../tests/Argument Comparison Test/Argument Comparison Test.lvclass"/>
 			<Item Name="Mock Generation Demo.vi" Type="VI" URL="../../tests/Demo/Mock Generation Demo.vi"/>
 		</Item>
-		<Item Name="Mock Class Generator Test Doubles.lvlib" Type="Library" URL="../../tests/Mock Class Generator Test/Mock Class Generator Test Doubles.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
