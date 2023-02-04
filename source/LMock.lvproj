@@ -47,6 +47,7 @@
 			<Item Name="Mock Class Generator Test.lvclass" Type="LVClass" URL="../../tests/Mock Class Generator Test/Mock Class Generator Test.lvclass"/>
 			<Item Name="Interface Identifier Test.lvclass" Type="LVClass" URL="../../tests/Interface Identifier Test/Interface Identifier Test.lvclass"/>
 			<Item Name="Tolerant Numeric Comparator Test.lvclass" Type="LVClass" URL="../../tests/Tolerant Numeric Comparator Test/Tolerant Numeric Comparator Test.lvclass"/>
+			<Item Name="Return Value Test.lvclass" Type="LVClass" URL="../../tests/Return Value Test/Return Value Test.lvclass"/>
 			<Item Name="Expectation Test.lvclass" Type="LVClass" URL="../../tests/Expectation Test/Expectation Test.lvclass"/>
 			<Item Name="One Expectation Test.lvclass" Type="LVClass" URL="../../tests/One Expectation Test/One Expectation Test.lvclass"/>
 			<Item Name="One or More Expectation Test.lvclass" Type="LVClass" URL="../../tests/One or More Expectation Test/One or More Expectation Test.lvclass"/>
