@@ -11,8 +11,8 @@
 		<Item Name="LMock_signed.ini" Type="Document" URL="../GProviders/LMock_signed.ini"/>
 	</Item>
 	<Item Name="LMock" Type="Folder">
-		<Item Name="Item_Interface.vi" Type="VI" URL="../Triarc/Item_Interface.vi"/>
-		<Item Name="Item_OnCommand.vi" Type="VI" URL="../Triarc/Item_OnCommand.vi"/>
-		<Item Name="Item_OnPopupMenu.vi" Type="VI" URL="../Triarc/Item_OnPopupMenu.vi"/>
+		<Item Name="Item_Interface.vi" Type="VI" URL="../LMock/Item_Interface.vi"/>
+		<Item Name="Item_OnCommand.vi" Type="VI" URL="../LMock/Item_OnCommand.vi"/>
+		<Item Name="Item_OnPopupMenu.vi" Type="VI" URL="../LMock/Item_OnPopupMenu.vi"/>
 	</Item>
 </Library>
