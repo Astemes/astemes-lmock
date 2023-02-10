@@ -4,7 +4,7 @@ pipeline {
     }
 	environment{
 		PROJECT_TITLE = "Astemes LMock"
-		REPO_URL = "https://github.com/astemes/lmock"
+		REPO_URL = "https://github.com/astemes/astemes-lmock"
 		AUTHOR = "Anton Sundqvist"
 		INITIAL_RELEASE = 2023
 		LV_PROJECT_PATH = "source\\LMock.lvproj"
