@@ -369,7 +369,7 @@
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Comparator.lvclass" Type="LVClass" URL="../Framework/Comparator/Comparator.lvclass"/>
 			<Item Name="Expectation.lvclass" Type="LVClass" URL="../Framework/Expectation/Expectation.lvclass"/>
-			<Item Name="Mock.lvclass" Type="LVClass" URL="../Framework/Mock/Mock.lvclass"/>
+			<Item Name="Responsive Mock.lvclass" Type="LVClass" URL="../Framework/Responsive Mock/Responsive Mock.lvclass"/>
 			<Item Name="Verifier.lvclass" Type="LVClass" URL="../Framework/Verifier/Verifier.lvclass"/>
 			<Item Name="VI Server VI Call.lvclass" Type="LVClass" URL="../Framework/VI Server VI Call/VI Server VI Call.lvclass"/>
 			<Item Name="VI Call.lvclass" Type="LVClass" URL="../Framework/VI Call/VI Call.lvclass"/>
@@ -398,6 +398,7 @@
 			<Item Name="One or More Expectation Test.lvclass" Type="LVClass" URL="../../tests/One or More Expectation Test/One or More Expectation Test.lvclass"/>
 			<Item Name="Argument Comparison Test.lvclass" Type="LVClass" URL="../../tests/Argument Comparison Test/Argument Comparison Test.lvclass"/>
 			<Item Name="Mock Generation Demo.vi" Type="VI" URL="../../tests/Demo/Mock Generation Demo.vi"/>
+			<Item Name="Mock Class Generator Test.lvclass" Type="LVClass" URL="../../tests/Mock Class Generator Test/Mock Class Generator Test.lvclass"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -406,6 +407,7 @@
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
 				<Item Name="BodyText.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/BodyText.ctl"/>
 				<Item Name="BodyTextPosition.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/BodyTextPosition.ctl"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Coerce Bad Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Coerce Bad Rect.vi"/>
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
@@ -451,6 +453,8 @@
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Pathes.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Pathes.ctl"/>
 				<Item Name="PCT Pad String.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/PCT Pad String.vi"/>
 				<Item Name="Picture to Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Picture to Pixmap.vi"/>
