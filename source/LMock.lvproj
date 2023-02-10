@@ -496,7 +496,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{24240D9D-E8FC-41C3-B0F5-B025DF78EFCF}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
@@ -508,20 +508,38 @@
 				<Property Name="Destination[3].path" Type="Path">../builds/NI_AB_PROJECTNAME/resource/Framework/Providers</Property>
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{42D54430-A968-423F-B3BA-950D3535BDC5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8EFD76DF-9CB3-4383-BF63-0E75FBCF813B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[1].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Comparators</Property>
 				<Property Name="Source[1].newName" Type="Str">LMock_</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Container</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Framework/Comparator.lvclass</Property>
+				<Property Name="Source[10].newName" Type="Str">LMock Comparator.lvclass</Property>
+				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[10].type" Type="Str">Library</Property>
+				<Property Name="Source[11].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Framework/Expectation.lvclass</Property>
+				<Property Name="Source[11].newName" Type="Str">LMock Expectation.lvclass</Property>
+				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[11].type" Type="Str">Library</Property>
+				<Property Name="Source[12].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Framework/Verifier.lvclass</Property>
+				<Property Name="Source[12].newName" Type="Str">LMock Verifier.lvclass</Property>
+				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[12].type" Type="Str">Library</Property>
+				<Property Name="Source[13].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Framework/VI Call.lvclass</Property>
+				<Property Name="Source[13].newName" Type="Str">LMock VI Call.lvclass</Property>
+				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[13].type" Type="Str">Library</Property>
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[2].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Expectations</Property>
@@ -530,7 +548,6 @@
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[3].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Framework</Property>
@@ -578,7 +595,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Excluded Dependencies</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">10</Property>
+				<Property Name="SourceCount" Type="Int">14</Property>
 			</Item>
 		</Item>
 	</Item>
