@@ -369,10 +369,12 @@
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Comparator.lvclass" Type="LVClass" URL="../Framework/Comparator/Comparator.lvclass"/>
 			<Item Name="Expectation.lvclass" Type="LVClass" URL="../Framework/Expectation/Expectation.lvclass"/>
+			<Item Name="Mockito.lvclass" Type="LVClass" URL="../Framework/Mock/Mockito.lvclass"/>
 			<Item Name="Responsive Mock.lvclass" Type="LVClass" URL="../Framework/Responsive Mock/Responsive Mock.lvclass"/>
 			<Item Name="Verifier.lvclass" Type="LVClass" URL="../Framework/Verifier/Verifier.lvclass"/>
 			<Item Name="VI Server VI Call.lvclass" Type="LVClass" URL="../Framework/VI Server VI Call/VI Server VI Call.lvclass"/>
 			<Item Name="VI Call.lvclass" Type="LVClass" URL="../Framework/VI Call/VI Call.lvclass"/>
+			<Item Name="Mock.lvclass" Type="LVClass" URL="../Framework/Mock/Mock.lvclass"/>
 		</Item>
 		<Item Name="Project Provider" Type="Folder">
 			<Item Name="Project Provider.lvlib" Type="Library" URL="../Project Provider/Project Provider.lvlib"/>
