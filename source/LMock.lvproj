@@ -389,7 +389,8 @@
 		<Item Name="Test Doubles" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Test Interface.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Test Interface/Test Interface.lvclass"/>
-			<Item Name="Test Interface Mock.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Test Interface Mock/Test Interface Mock.lvclass"/>
+			<Item Name="Test Interface Pure Mock.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Test Interface Pure Mock/Test Interface Pure Mock.lvclass"/>
+			<Item Name="Test Interface Responsive Mock.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Test Interface Responsive Mock/Test Interface Responsive Mock.lvclass"/>
 			<Item Name="Mock VI Call.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Mock VI Call/Mock VI Call.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
