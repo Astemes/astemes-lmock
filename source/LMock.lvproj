@@ -19,6 +19,12 @@
 			<Item Name="Ignore Inputs Comparator.lvclass" Type="LVClass" URL="../Comparators/Ignore Inputs Comparator/Ignore Inputs Comparator.lvclass"/>
 			<Item Name="Error Input Comparator.lvclass" Type="LVClass" URL="../Comparators/Error Input Comparator/Error Input Comparator.lvclass"/>
 		</Item>
+		<Item Name="Core" Type="Folder">
+			<Item Name="Comparator.lvclass" Type="LVClass" URL="../Core/Comparator/Comparator.lvclass"/>
+			<Item Name="Expectation.lvclass" Type="LVClass" URL="../Core/Expectation/Expectation.lvclass"/>
+			<Item Name="Mock.lvclass" Type="LVClass" URL="../Core/Mock/Mock.lvclass"/>
+			<Item Name="VI Call.lvclass" Type="LVClass" URL="../Core/VI Call/VI Call.lvclass"/>
+		</Item>
 		<Item Name="Excluded Dependencies" Type="Folder">
 			<Item Name="Item_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Item_Interface.ctl"/>
 			<Item Name="ItemRef.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/ItemRef.ctl"/>
@@ -367,21 +373,17 @@
 		</Item>
 		<Item Name="Framework" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Comparator.lvclass" Type="LVClass" URL="../Framework/Comparator/Comparator.lvclass"/>
-			<Item Name="Expectation.lvclass" Type="LVClass" URL="../Framework/Expectation/Expectation.lvclass"/>
 			<Item Name="Pure Mock.lvclass" Type="LVClass" URL="../Framework/Pure Mock/Pure Mock.lvclass"/>
 			<Item Name="Responsive Mock.lvclass" Type="LVClass" URL="../Framework/Responsive Mock/Responsive Mock.lvclass"/>
 			<Item Name="Verifier.lvclass" Type="LVClass" URL="../Framework/Verifier/Verifier.lvclass"/>
 			<Item Name="VI Server VI Call.lvclass" Type="LVClass" URL="../Framework/VI Server VI Call/VI Server VI Call.lvclass"/>
-			<Item Name="VI Call.lvclass" Type="LVClass" URL="../Framework/VI Call/VI Call.lvclass"/>
-			<Item Name="Mock.lvclass" Type="LVClass" URL="../Framework/Mock/Mock.lvclass"/>
 		</Item>
 		<Item Name="Project Provider" Type="Folder">
 			<Item Name="Project Provider.lvlib" Type="Library" URL="../Project Provider/Project Provider.lvlib"/>
 		</Item>
 		<Item Name="Scripting" Type="Folder">
 			<Item Name="Interface Identifier.lvclass" Type="LVClass" URL="../Scripting/Interface Identifier/Interface Identifier.lvclass"/>
-			<Item Name="Mock Class Generator.lvclass" Type="LVClass" URL="../Mock Class Generator/Mock Class Generator.lvclass"/>
+			<Item Name="Mock Class Generator.lvclass" Type="LVClass" URL="../Scripting/Mock Class Generator/Mock Class Generator.lvclass"/>
 			<Item Name="Templates.lvlib" Type="Library" URL="../Scripting/Templates/Templates.lvlib"/>
 		</Item>
 		<Item Name="Test Doubles" Type="Folder">
@@ -523,12 +525,12 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Framework/Comparator.lvclass</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Core/Comparator.lvclass</Property>
 				<Property Name="Source[10].newName" Type="Str">LMock Comparator.lvclass</Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[10].type" Type="Str">Library</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Framework/Expectation.lvclass</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Core/Expectation.lvclass</Property>
 				<Property Name="Source[11].newName" Type="Str">LMock Expectation.lvclass</Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].type" Type="Str">Library</Property>
