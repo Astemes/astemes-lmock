@@ -394,16 +394,19 @@
 			<Item Name="Mock VI Call.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Mock VI Call/Mock VI Call.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Interface Identifier Test.lvclass" Type="LVClass" URL="../../tests/Interface Identifier Test/Interface Identifier Test.lvclass"/>
-			<Item Name="Tolerant Numeric Comparator Test.lvclass" Type="LVClass" URL="../../tests/Tolerant Numeric Comparator Test/Tolerant Numeric Comparator Test.lvclass"/>
-			<Item Name="Return Value Test.lvclass" Type="LVClass" URL="../../tests/Return Value Test/Return Value Test.lvclass"/>
-			<Item Name="Expectation Test.lvclass" Type="LVClass" URL="../../tests/Expectation Test/Expectation Test.lvclass"/>
-			<Item Name="One Expectation Test.lvclass" Type="LVClass" URL="../../tests/One Expectation Test/One Expectation Test.lvclass"/>
-			<Item Name="One or More Expectation Test.lvclass" Type="LVClass" URL="../../tests/One or More Expectation Test/One or More Expectation Test.lvclass"/>
+			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Argument Comparison Test.lvclass" Type="LVClass" URL="../../tests/Argument Comparison Test/Argument Comparison Test.lvclass"/>
-			<Item Name="Mock Generation Demo.vi" Type="VI" URL="../../tests/Demo/Mock Generation Demo.vi"/>
+			<Item Name="Interface Identifier Test.lvclass" Type="LVClass" URL="../../tests/Interface Identifier Test/Interface Identifier Test.lvclass"/>
 			<Item Name="Mock Class Generator Test.lvclass" Type="LVClass" URL="../../tests/Mock Class Generator Test/Mock Class Generator Test.lvclass"/>
+			<Item Name="Mock Generation Demo.vi" Type="VI" URL="../../tests/Demo/Mock Generation Demo.vi"/>
+			<Item Name="Pure Mock Argument Comparison Test.lvclass" Type="LVClass" URL="../../tests/Pure Mock Argument Comparison Test/Argument Comparison Test/Pure Mock Argument Comparison Test.lvclass"/>
+			<Item Name="Pure Mock One Expectation Test.lvclass" Type="LVClass" URL="../../tests/Pure Mock One Expectation Test/One Expectation Test/Pure Mock One Expectation Test.lvclass"/>
+			<Item Name="Pure Mock One or More Expectation Test.lvclass" Type="LVClass" URL="../../tests/Pure Mock One or More Expectation Test/Pure Mock One or More Expectation Test.lvclass"/>
+			<Item Name="Responsive Mock Expectation Test.lvclass" Type="LVClass" URL="../../tests/Expectation Test/Responsive Mock Expectation Test.lvclass"/>
+			<Item Name="Responsive Mock One Expectation Test.lvclass" Type="LVClass" URL="../../tests/One Expectation Test/Responsive Mock One Expectation Test.lvclass"/>
+			<Item Name="Responsive Mock One or More Expectation Test.lvclass" Type="LVClass" URL="../../tests/One or More Expectation Test/Responsive Mock One or More Expectation Test.lvclass"/>
+			<Item Name="Return Value Test.lvclass" Type="LVClass" URL="../../tests/Return Value Test/Return Value Test.lvclass"/>
+			<Item Name="Tolerant Numeric Comparator Test.lvclass" Type="LVClass" URL="../../tests/Tolerant Numeric Comparator Test/Tolerant Numeric Comparator Test.lvclass"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
