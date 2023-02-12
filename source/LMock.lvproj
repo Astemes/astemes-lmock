@@ -377,6 +377,7 @@
 			<Item Name="Pure Mock.lvclass" Type="LVClass" URL="../Framework/Pure Mock/Pure Mock.lvclass"/>
 			<Item Name="Verifier.lvclass" Type="LVClass" URL="../Framework/Verifier/Verifier.lvclass"/>
 			<Item Name="VI Server VI Call.lvclass" Type="LVClass" URL="../Framework/VI Server VI Call/VI Server VI Call.lvclass"/>
+			<Item Name="Parametric VI Call.lvclass" Type="LVClass" URL="../Framework/Parametric VI Call/Parametric VI Call.lvclass"/>
 		</Item>
 		<Item Name="Project Provider" Type="Folder">
 			<Item Name="Project Provider.lvlib" Type="Library" URL="../Project Provider/Project Provider.lvlib"/>
