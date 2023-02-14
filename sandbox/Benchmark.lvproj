@@ -16,6 +16,7 @@
 		<Item Name="LMock Test Case 3.lvclass" Type="LVClass" URL="../Benchmark/LMock Test Case 3/LMock Test Case 3.lvclass"/>
 		<Item Name="LMock Test Case 4.lvclass" Type="LVClass" URL="../Benchmark/LMock Test Case 4/LMock Test Case 4.lvclass"/>
 		<Item Name="LMock Test Case 5.lvclass" Type="LVClass" URL="../Benchmark/LMock Test Case 5/LMock Test Case 5.lvclass"/>
+		<Item Name="Responsive Mock.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LMock/Responsive Mock.lvclass"/>
 		<Item Name="Test Interface Mock.lvclass" Type="LVClass" URL="../Benchmark/Test Interface Mock/Test Interface Mock.lvclass"/>
 		<Item Name="Test Interface.lvclass" Type="LVClass" URL="../Benchmark/Test Interface/Test Interface.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -39,6 +40,7 @@
 				<Item Name="String Argument Matching Comparator.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LMock/String Argument Matching Comparator.lvclass"/>
 				<Item Name="Test Case.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Case.lvclass"/>
 				<Item Name="Tolerant Numeric Argument Comparator.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LMock/Tolerant Numeric Argument Comparator.lvclass"/>
+				<Item Name="VI Call.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LMock/VI Call.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
