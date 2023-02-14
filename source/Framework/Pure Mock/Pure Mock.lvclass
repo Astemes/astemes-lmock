@@ -70,17 +70,8 @@
 	</Item>
 	<Item Name="Protected" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
-		<Item Name="Append Control Value.vi" Type="VI" URL="../../../Scripting/Pure Mock Class Generator/Append Control Value.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$+!!!!#!!%!!!!$E!Q`````Q2/97VF!!!31&amp;--6G&amp;S;7&amp;O&gt;#"%982B!!!31&amp;!!!A!"!!)(:7RF&lt;76O&gt;!!31%!!!@````]!!Q6"=H*B?1!+!&amp;!!!A!"!!)!(%"!!!(`````!!5/1W^O&gt;(*P&lt;#"797RV:8-!!&amp;1!]!!-!!!!!!!!!!1!!!!!!!!!!!!!!!)!!1!'!A!!?!!!!!!!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%A!!!B!!!!%+!!!!!!%!"Q!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
-		</Item>
 		<Item Name="Mock Call.vi" Type="VI" URL="../Protected/Mock Call.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;;!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#:!=!!?!!!4%6"V=G5A47^D;SZM&gt;G.M98.T!!B.&lt;W.L)%^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!/1$$`````"%ZB&lt;75!!"*!5QR798*J97ZU)%2B&gt;'%!!!I!5!!#!!=!#!!=1%!!!@````]!#1Z$&lt;WZU=G^M)&amp;:B&lt;(6F=Q!!*%"Q!"Y!!"-25(6S:3".&lt;W.L,GRW9WRB=X-!"UVP9WMA37Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!+!!M$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!#%!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!$!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;;!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#:!=!!?!!!4%6"V=G5A47^D;SZM&gt;G.M98.T!!B.&lt;W.L)%^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!/1$$`````"%ZB&lt;75!!"*!5QR798*J97ZU)%2B&gt;'%!!!I!5!!#!!=!#!!=1%!!!@````]!#1Z$&lt;WZU=G^M)&amp;:B&lt;(6F=Q!!*%"Q!"Y!!"-25(6S:3".&lt;W.L,GRW9WRB=X-!"UVP9WMA37Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!+!!M$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!#%!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!$!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
@@ -88,5 +79,14 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 		</Item>
+	</Item>
+	<Item Name="Append Control Value.vi" Type="VI" URL="../Protected/Append Control Value.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$+!!!!#!!%!!!!$E!Q`````Q2/97VF!!!31&amp;--6G&amp;S;7&amp;O&gt;#"%982B!!!31&amp;!!!A!"!!)(:7RF&lt;76O&gt;!!31%!!!@````]!!Q6"=H*B?1!+!&amp;!!!A!"!!)!(%"!!!(`````!!5/1W^O&gt;(*P&lt;#"797RV:8-!!&amp;1!]!!-!!!!!!!!!!1!!!!!!!!!!!!!!!)!!1!'!A!!?!!!!!!!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%A!!!B!!!!%+!!!!!!%!"Q!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074266624</Property>
 	</Item>
 </LVClass>
