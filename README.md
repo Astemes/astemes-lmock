@@ -8,12 +8,12 @@ The toolkit features a very expressive API which allows for advanced assertions 
 When writing unit tests there are basically three ways for tests to make assertions about the unit under test. 
 
 1. Verify an output given some input data 
-2. Verify the state of the unit given some stimulus
+2. Verify the state of an external object acted uppn by the unit under test
 3. Verify calls to code external to the unit under test
 
-In general, one should have a preference for the earlier types of tests in the list, but there are many cases where it is simplt not feasible to have a pure functional VI. 
-Test doubles are used to handle the third item in the listing and are valueable tools for verifying the behavior of the code.
-Examples could be interation with instrumentation or any situation where one need to verify the interaction with the rest of the system. 
+In general, one should have a preference for the earlier types of tests in the list, but there are many cases where it is simply not feasible to have a pure functional VI. 
+Test doubles are used to handle the latter items in the listing and are valueable tools for verifying the behavior of the code.
+Examples could be interation with instrumentation, or any situation where one need to verify the interaction with the rest of the system. 
 
 There is a lot of literature available on the subject and it is not the purpose of this document to pharaphrase existing material.
 I did give [a presentation](https://www.youtube.com/watch?v=6cfifZbhZsE&t=44s) during GDevCon 2022, which introduced the concept of mocks.
