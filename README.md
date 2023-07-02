@@ -11,7 +11,7 @@ When writing unit tests there are basically three ways for tests to make asserti
 2. Verify the state of the unit given some stimulus
 3. Verify calls to code external to the unit under test
 
-In general, one should have a preference for the earlier types of tests in the list, but there are many cases where it is simplt not feasible to have a pure functional VI. 
+In general, one should have a preference for the earlier types of tests in the list, but there are many cases where it is simply not feasible to have a pure functional VI. 
 Test doubles are used to handle the third item in the listing and are valueable tools for verifying the behavior of the code.
 Examples could be interation with instrumentation or any situation where one need to verify the interaction with the rest of the system. 
 
