@@ -81,12 +81,12 @@
 		</Item>
 	</Item>
 	<Item Name="Append Control Value.vi" Type="VI" URL="../Protected/Append Control Value.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$+!!!!#!!%!!!!$E!Q`````Q2/97VF!!!31&amp;--6G&amp;S;7&amp;O&gt;#"%982B!!!31&amp;!!!A!"!!)(:7RF&lt;76O&gt;!!31%!!!@````]!!Q6"=H*B?1!+!&amp;!!!A!"!!)!(%"!!!(`````!!5/1W^O&gt;(*P&lt;#"797RV:8-!!&amp;1!]!!-!!!!!!!!!!1!!!!!!!!!!!!!!!)!!1!'!A!!?!!!!!!!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%A!!!B!!!!%+!!!!!!%!"Q!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$5!!!!#!!%!!!!$E!Q`````Q2/97VF!!!31&amp;--6G&amp;S;7&amp;O&gt;#"%982B!!!31&amp;!!!A!"!!)(:7RF&lt;76O&gt;!!=1%!!!@````]!!QZ$&lt;WZU=G^M)&amp;:B&lt;(6F=Q!!#A"1!!)!!1!#!"R!1!!"`````Q!&amp;$E.P&lt;H2S&lt;WQA6G&amp;M&gt;76T!!"5!0!!$!!!!!!!!!!%!!!!!!!!!!!!!!!#!!%!"A)!!(A!!!!!!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")!!!)1!!!"#A!!!!!"!!=!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1074266624</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 	</Item>
 </LVClass>
