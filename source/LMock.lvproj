@@ -492,7 +492,6 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Pure Mock Generator Test Doubles.lvlib" Type="Library" URL="../../tests/Pure Mock Class Generator Test/Pure Mock Generator Test Doubles.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LMock" Type="Source Distribution">
