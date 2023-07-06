@@ -25,7 +25,6 @@
 		<Item Name="Core" Type="Folder">
 			<Item Name="Comparator.lvclass" Type="LVClass" URL="../Core/Comparator/Comparator.lvclass"/>
 			<Item Name="Expectation.lvclass" Type="LVClass" URL="../Core/Expectation/Expectation.lvclass"/>
-			<Item Name="Mock.lvclass" Type="LVClass" URL="../Core/Mock/Mock.lvclass"/>
 			<Item Name="VI Call.lvclass" Type="LVClass" URL="../Core/VI Call/VI Call.lvclass"/>
 		</Item>
 		<Item Name="Excluded Dependencies" Type="Folder">
@@ -376,8 +375,7 @@
 		</Item>
 		<Item Name="Framework" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Responsive Mock.lvclass" Type="LVClass" URL="../Framework/Responsive Mock/Responsive Mock.lvclass"/>
-			<Item Name="Pure Mock.lvclass" Type="LVClass" URL="../Framework/Pure Mock/Pure Mock.lvclass"/>
+			<Item Name="Mock.lvclass" Type="LVClass" URL="../Framework/Mock/Mock.lvclass"/>
 			<Item Name="Verifier.lvclass" Type="LVClass" URL="../Framework/Verifier/Verifier.lvclass"/>
 			<Item Name="VI Server VI Call.lvclass" Type="LVClass" URL="../Framework/VI Server VI Call/VI Server VI Call.lvclass"/>
 			<Item Name="Parametric VI Call.lvclass" Type="LVClass" URL="../Framework/Parametric VI Call/Parametric VI Call.lvclass"/>
@@ -386,27 +384,19 @@
 			<Item Name="Project Provider.lvlib" Type="Library" URL="../Project Provider/Project Provider.lvlib"/>
 		</Item>
 		<Item Name="Scripting" Type="Folder">
-			<Item Name="Interface Identifier.lvclass" Type="LVClass" URL="../Scripting/Interface Identifier/Interface Identifier.lvclass"/>
-			<Item Name="Pure Mock Class Generator.lvclass" Type="LVClass" URL="../Scripting/Pure Mock Class Generator/Pure Mock Class Generator.lvclass"/>
-			<Item Name="Responsive Mock Class Generator.lvclass" Type="LVClass" URL="../Scripting/Mock Class Generator/Responsive Mock Class Generator.lvclass"/>
+			<Item Name="Mock Class Generator.lvclass" Type="LVClass" URL="../Scripting/Mock Class Generator/Mock Class Generator.lvclass"/>
 			<Item Name="Templates.lvlib" Type="Library" URL="../Scripting/Templates/Templates.lvlib"/>
 		</Item>
 		<Item Name="Test Doubles" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Test Interface.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Test Interface/Test Interface.lvclass"/>
-			<Item Name="Test Interface Pure Mock.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Test Interface Pure Mock/Test Interface Pure Mock.lvclass"/>
 			<Item Name="Test Interface Responsive Mock.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Test Interface Responsive Mock/Test Interface Responsive Mock.lvclass"/>
 			<Item Name="Mock VI Call.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Mock VI Call/Mock VI Call.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Argument Comparison Test.lvclass" Type="LVClass" URL="../../tests/Argument Comparison Test/Argument Comparison Test.lvclass"/>
-			<Item Name="Interface Identifier Test.lvclass" Type="LVClass" URL="../../tests/Interface Identifier Test/Interface Identifier Test.lvclass"/>
 			<Item Name="Mock Generation Demo.vi" Type="VI" URL="../../tests/Demo/Mock Generation Demo.vi"/>
-			<Item Name="Pure Mock Argument Comparison Test.lvclass" Type="LVClass" URL="../../tests/Pure Mock Argument Comparison Test/Argument Comparison Test/Pure Mock Argument Comparison Test.lvclass"/>
-			<Item Name="Pure Mock Class Generator Test.lvclass" Type="LVClass" URL="../../tests/Pure Mock Class Generator Test/Pure Mock Class Generator Test.lvclass"/>
-			<Item Name="Pure Mock One Expectation Test.lvclass" Type="LVClass" URL="../../tests/Pure Mock One Expectation Test/One Expectation Test/Pure Mock One Expectation Test.lvclass"/>
-			<Item Name="Pure Mock One or More Expectation Test.lvclass" Type="LVClass" URL="../../tests/Pure Mock One or More Expectation Test/Pure Mock One or More Expectation Test.lvclass"/>
 			<Item Name="Responsive Mock Class Generator Test.lvclass" Type="LVClass" URL="../../tests/Mock Class Generator Test/Responsive Mock Class Generator Test.lvclass"/>
 			<Item Name="Responsive Mock Expectation Test.lvclass" Type="LVClass" URL="../../tests/Expectation Test/Responsive Mock Expectation Test.lvclass"/>
 			<Item Name="Responsive Mock One Expectation Test.lvclass" Type="LVClass" URL="../../tests/One Expectation Test/Responsive Mock One Expectation Test.lvclass"/>
@@ -418,6 +408,7 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
 				<Item Name="Alignment.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Alignment.ctl"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
 				<Item Name="BodyText.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/BodyText.ctl"/>
 				<Item Name="BodyTextPosition.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/BodyTextPosition.ctl"/>
