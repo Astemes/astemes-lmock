@@ -89,13 +89,4 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 		</Item>
 	</Item>
-	<Item Name="Append Control Value.vi" Type="VI" URL="../Append Control Value.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$5!!!!#!!%!!!!$E!Q`````Q2/97VF!!!31&amp;--6G&amp;S;7&amp;O&gt;#"%982B!!!31&amp;!!!A!"!!)(:7RF&lt;76O&gt;!!=1%!!!@````]!!QZ$&lt;WZU=G^M)&amp;:B&lt;(6F=Q!!#A"1!!)!!1!#!"R!1!!"`````Q!&amp;$E.P&lt;H2S&lt;WQA6G&amp;M&gt;76T!!"5!0!!$!!!!!!!!!!%!!!!!!!!!!!!!!!#!!%!"A)!!(A!!!!!!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")!!!)1!!!"#A!!!!!"!!=!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
-	</Item>
 </LVClass>
