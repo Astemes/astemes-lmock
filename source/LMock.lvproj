@@ -15,12 +15,10 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Comparators" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Identical Inputs Comparator.lvclass" Type="LVClass" URL="../Comparators/Identical Inputs Comparators/Identical Inputs Comparator.lvclass"/>
-			<Item Name="Identical Arguments Comparator.lvclass" Type="LVClass" URL="../Comparators/Identical Arguments Comparator/Identical Arguments Comparator.lvclass"/>
-			<Item Name="Tolerant Numeric Argument Comparator.lvclass" Type="LVClass" URL="../Comparators/Tolerant Numeric Argument Comparator/Tolerant Numeric Argument Comparator.lvclass"/>
-			<Item Name="String Argument Matching Comparator.lvclass" Type="LVClass" URL="../Comparators/String Argument Matching Comparator/String Argument Matching Comparator.lvclass"/>
+			<Item Name="Identical Inputs Comparator.lvclass" Type="LVClass" URL="../Comparators/Identical Arguments Comparator/Identical Inputs Comparator.lvclass"/>
+			<Item Name="Tolerant Numeric Input Comparator.lvclass" Type="LVClass" URL="../Comparators/Tolerant Numeric Argument Comparator/Tolerant Numeric Input Comparator.lvclass"/>
+			<Item Name="String Input Matching Comparator.lvclass" Type="LVClass" URL="../Comparators/String Argument Matching Comparator/String Input Matching Comparator.lvclass"/>
 			<Item Name="Ignore Inputs Comparator.lvclass" Type="LVClass" URL="../Comparators/Ignore Inputs Comparator/Ignore Inputs Comparator.lvclass"/>
-			<Item Name="Error Input Comparator.lvclass" Type="LVClass" URL="../Comparators/Error Input Comparator/Error Input Comparator.lvclass"/>
 		</Item>
 		<Item Name="Core" Type="Folder">
 			<Item Name="Comparator.lvclass" Type="LVClass" URL="../Core/Comparator/Comparator.lvclass"/>
@@ -395,9 +393,9 @@
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="_Mock Class Generator Test.lvclass" Type="LVClass" URL="../../tests/Mock Class Generator Test/_Mock Class Generator Test.lvclass"/>
 			<Item Name="Argument Comparison Test.lvclass" Type="LVClass" URL="../../tests/Argument Comparison Test/Argument Comparison Test.lvclass"/>
 			<Item Name="Mock Generation Demo.vi" Type="VI" URL="../../tests/Demo/Mock Generation Demo.vi"/>
-			<Item Name="Responsive Mock Class Generator Test.lvclass" Type="LVClass" URL="../../tests/Mock Class Generator Test/Responsive Mock Class Generator Test.lvclass"/>
 			<Item Name="Responsive Mock Expectation Test.lvclass" Type="LVClass" URL="../../tests/Expectation Test/Responsive Mock Expectation Test.lvclass"/>
 			<Item Name="Responsive Mock One Expectation Test.lvclass" Type="LVClass" URL="../../tests/One Expectation Test/Responsive Mock One Expectation Test.lvclass"/>
 			<Item Name="Responsive Mock One or More Expectation Test.lvclass" Type="LVClass" URL="../../tests/One or More Expectation Test/Responsive Mock One or More Expectation Test.lvclass"/>
