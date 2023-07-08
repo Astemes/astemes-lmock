@@ -368,6 +368,7 @@
 			<Item Name="mxLvSetPopupMenu.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvSetPopupMenu.vi"/>
 		</Item>
 		<Item Name="Expectations" Type="Folder">
+			<Item Name="Never.lvclass" Type="LVClass" URL="../Expectations/Never/Never.lvclass"/>
 			<Item Name="One or More.lvclass" Type="LVClass" URL="../Expectations/One or More/One or More.lvclass"/>
 			<Item Name="One.lvclass" Type="LVClass" URL="../Expectations/One/One.lvclass"/>
 		</Item>
@@ -396,6 +397,7 @@
 			<Item Name="_Mock Class Generator Test.lvclass" Type="LVClass" URL="../../tests/Mock Class Generator Test/_Mock Class Generator Test.lvclass"/>
 			<Item Name="Argument Comparison Test.lvclass" Type="LVClass" URL="../../tests/Argument Comparison Test/Argument Comparison Test.lvclass"/>
 			<Item Name="Mock Generation Demo.vi" Type="VI" URL="../../tests/Demo/Mock Generation Demo.vi"/>
+			<Item Name="Never Expectation Test.lvclass" Type="LVClass" URL="../../tests/Mock Never Expectation Test/Never Expectation Test.lvclass"/>
 			<Item Name="Responsive Mock Expectation Test.lvclass" Type="LVClass" URL="../../tests/Expectation Test/Responsive Mock Expectation Test.lvclass"/>
 			<Item Name="Responsive Mock One Expectation Test.lvclass" Type="LVClass" URL="../../tests/One Expectation Test/Responsive Mock One Expectation Test.lvclass"/>
 			<Item Name="Responsive Mock One or More Expectation Test.lvclass" Type="LVClass" URL="../../tests/One or More Expectation Test/Responsive Mock One or More Expectation Test.lvclass"/>
@@ -501,7 +503,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{24240D9D-E8FC-41C3-B0F5-B025DF78EFCF}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
