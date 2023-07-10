@@ -384,6 +384,7 @@
 		</Item>
 		<Item Name="Scripting" Type="Folder">
 			<Item Name="Mock Class Generator.lvclass" Type="LVClass" URL="../Scripting/Mock Class Generator/Mock Class Generator.lvclass"/>
+			<Item Name="Mock Class Updater.lvclass" Type="LVClass" URL="../Scripting/Mock Class Updater/Mock Class Updater.lvclass"/>
 			<Item Name="Templates.lvlib" Type="Library" URL="../Scripting/Templates/Templates.lvlib"/>
 		</Item>
 		<Item Name="Test Doubles" Type="Folder">
@@ -544,7 +545,7 @@
 				<Property Name="Destination[3].path" Type="Path">../builds/NI_AB_PROJECTNAME/resource/Framework/Providers</Property>
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8EFD76DF-9CB3-4383-BF63-0E75FBCF813B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{841E5D4B-DECE-4ED5-A64D-3ED25323106C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
