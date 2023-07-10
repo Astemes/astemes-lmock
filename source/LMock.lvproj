@@ -389,7 +389,7 @@
 		<Item Name="Test Doubles" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Test Interface.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Test Interface/Test Interface.lvclass"/>
-			<Item Name="Test Interface Responsive Mock.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Test Interface Responsive Mock/Test Interface Responsive Mock.lvclass"/>
+			<Item Name="Test Interface Mock.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Test Interface Responsive Mock/Test Interface Mock.lvclass"/>
 			<Item Name="Mock VI Call.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Mock VI Call/Mock VI Call.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
@@ -404,6 +404,7 @@
 			<Item Name="Return Value Test.lvclass" Type="LVClass" URL="../../tests/Return Value Test/Return Value Test.lvclass"/>
 			<Item Name="Tolerant Numeric Comparator Test.lvclass" Type="LVClass" URL="../../tests/Tolerant Numeric Comparator Test/Tolerant Numeric Comparator Test.lvclass"/>
 		</Item>
+		<Item Name="Pattern Matching Comparator Test.lvclass" Type="LVClass" URL="../../tests/Pattern Matching Comparator Test/Pattern Matching Comparator Test.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
