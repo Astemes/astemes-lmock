@@ -368,9 +368,10 @@
 			<Item Name="mxLvSetPopupMenu.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvSetPopupMenu.vi"/>
 		</Item>
 		<Item Name="Expectations" Type="Folder">
-			<Item Name="Never.lvclass" Type="LVClass" URL="../Expectations/Never/Never.lvclass"/>
-			<Item Name="One or More.lvclass" Type="LVClass" URL="../Expectations/One or More/One or More.lvclass"/>
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="One.lvclass" Type="LVClass" URL="../Expectations/One/One.lvclass"/>
+			<Item Name="One or More.lvclass" Type="LVClass" URL="../Expectations/One or More/One or More.lvclass"/>
+			<Item Name="Never.lvclass" Type="LVClass" URL="../Expectations/Never/Never.lvclass"/>
 		</Item>
 		<Item Name="Framework" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -397,6 +398,7 @@
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="_Mock Class Generator Test.lvclass" Type="LVClass" URL="../../tests/Mock Class Generator Test/_Mock Class Generator Test.lvclass"/>
 			<Item Name="Argument Comparison Test.lvclass" Type="LVClass" URL="../../tests/Argument Comparison Test/Argument Comparison Test.lvclass"/>
+			<Item Name="Expectation Message Test.lvclass" Type="LVClass" URL="../../tests/Verify Message Test/Expectation Message Test.lvclass"/>
 			<Item Name="Expectation Test.lvclass" Type="LVClass" URL="../../tests/Expectation Test/Expectation Test.lvclass"/>
 			<Item Name="Mock Generation Demo.vi" Type="VI" URL="../../tests/Demo/Mock Generation Demo.vi"/>
 			<Item Name="Never Expectation Test.lvclass" Type="LVClass" URL="../../tests/Mock Never Expectation Test/Never Expectation Test.lvclass"/>
@@ -423,6 +425,7 @@
 				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Create Mask.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Create Mask.vi"/>
+				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
