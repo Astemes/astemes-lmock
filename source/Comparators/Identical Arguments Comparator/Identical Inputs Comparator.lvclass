@@ -56,11 +56,12 @@
 	<Item Name="Describe Comparison.vi" Type="VI" URL="../Describe Comparison.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%&amp;!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"2!-0````],2'6T9X*J=(2J&lt;WY!$%!B"E6R&gt;7&amp;M0Q!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!51&amp;-01W^O&gt;(*P&lt;#"797RV:3!S!"2!5Q^$&lt;WZU=G^M)&amp;:B&lt;(6F)$%!6!$Q!!Q!!Q!%!!5!"!!%!!1!"A!%!!=!#!!*!!1$!!"Y!!!.#!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!1!!!!!!!!!!A!!!!3!!!!%A!!!!!!!!!!!1!+!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">2</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074266640</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Description.vi" Type="VI" URL="../Description.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%@!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"2!-0````],2'6T9X*J=(2J&lt;WY!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"/1(!!(A!!*3.*:'6O&gt;'FD97QA37ZQ&gt;82T)%.P&lt;8"B=G&amp;U&lt;X)O&lt;(:D&lt;'&amp;T=Q!?372F&lt;H2J9W&amp;M)%FO=(6U=S"$&lt;WVQ98*B&gt;'^S)'FO!!"5!0!!$!!$!!1!"1!%!!1!"!!%!!1!"A!%!!1!"Q)!!(A!!!U)!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!A!!!!!</Property>
