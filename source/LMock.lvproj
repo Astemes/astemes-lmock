@@ -408,6 +408,7 @@
 			<Item Name="Return Value Test.lvclass" Type="LVClass" URL="../../tests/Return Value Test/Return Value Test.lvclass"/>
 			<Item Name="Tolerant Numeric Comparator Test.lvclass" Type="LVClass" URL="../../tests/Tolerant Numeric Comparator Test/Tolerant Numeric Comparator Test.lvclass"/>
 		</Item>
+		<Item Name="Comparator Message Test.lvclass" Type="LVClass" URL="../../tests/Comparison Message Test/Comparator Message Test.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
