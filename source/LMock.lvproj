@@ -4,6 +4,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -13,17 +14,61 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Comparators" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Identical Inputs Comparator.lvclass" Type="LVClass" URL="../Comparators/Identical Arguments Comparator/Identical Inputs Comparator.lvclass"/>
-			<Item Name="Tolerant Numeric Input Comparator.lvclass" Type="LVClass" URL="../Comparators/Tolerant Numeric Argument Comparator/Tolerant Numeric Input Comparator.lvclass"/>
-			<Item Name="String Input Matching Comparator.lvclass" Type="LVClass" URL="../Comparators/String Argument Matching Comparator/String Input Matching Comparator.lvclass"/>
-			<Item Name="Ignore Inputs Comparator.lvclass" Type="LVClass" URL="../Comparators/Ignore Inputs Comparator/Ignore Inputs Comparator.lvclass"/>
-		</Item>
 		<Item Name="Core" Type="Folder">
 			<Item Name="Comparator.lvclass" Type="LVClass" URL="../Core/Comparator/Comparator.lvclass"/>
 			<Item Name="Expectation.lvclass" Type="LVClass" URL="../Core/Expectation/Expectation.lvclass"/>
 			<Item Name="VI Call.lvclass" Type="LVClass" URL="../Core/VI Call/VI Call.lvclass"/>
+		</Item>
+		<Item Name="Framework" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Mock.lvclass" Type="LVClass" URL="../Framework/Mock/Mock.lvclass"/>
+			<Item Name="Verifier.lvclass" Type="LVClass" URL="../Framework/Verifier/Verifier.lvclass"/>
+			<Item Name="Parametric VI Call.lvclass" Type="LVClass" URL="../Framework/Parametric VI Call/Parametric VI Call.lvclass"/>
+		</Item>
+		<Item Name="Expectations" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Never.vi" Type="VI" URL="../Expectations/Never/Never.vi"/>
+			<Item Name="One or More.vi" Type="VI" URL="../Expectations/One or More/One or More.vi"/>
+			<Item Name="One.vi" Type="VI" URL="../Expectations/One/One.vi"/>
+			<Item Name="One.lvlib" Type="Library" URL="../Expectations/One/One.lvlib"/>
+			<Item Name="One or More.lvlib" Type="Library" URL="../Expectations/One or More/One or More.lvlib"/>
+			<Item Name="Never.lvlib" Type="Library" URL="../Expectations/Never/Never.lvlib"/>
+		</Item>
+		<Item Name="Comparators" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Identical Inputs Comparator.lvclass" Type="LVClass" URL="../Comparators/Identical Arguments Comparator/Identical Inputs Comparator.lvclass"/>
+			<Item Name="Tolerant Numeric Input Comparator.lvclass" Type="LVClass" URL="../Comparators/Tolerant Numeric Argument Comparator/Tolerant Numeric Input Comparator.lvclass"/>
+			<Item Name="Matching String Input Comparator.lvclass" Type="LVClass" URL="../Comparators/String Argument Matching Comparator/Matching String Input Comparator.lvclass"/>
+			<Item Name="Any Inputs Comparator.lvclass" Type="LVClass" URL="../Comparators/Ignore Inputs Comparator/Any Inputs Comparator.lvclass"/>
+		</Item>
+		<Item Name="Scripting" Type="Folder">
+			<Item Name="Mock Class Generator.lvclass" Type="LVClass" URL="../Scripting/Mock Class Generator/Mock Class Generator.lvclass"/>
+			<Item Name="Mock Class Updater.lvclass" Type="LVClass" URL="../Scripting/Mock Class Updater/Mock Class Updater.lvclass"/>
+			<Item Name="Templates.lvlib" Type="Library" URL="../Scripting/Templates/Templates.lvlib"/>
+		</Item>
+		<Item Name="Tests" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="Test Doubles" Type="Folder">
+				<Property Name="NI.SortType" Type="Int">3</Property>
+				<Item Name="Test Interface.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Test Interface/Test Interface.lvclass"/>
+				<Item Name="Test Interface Mock.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Test Interface Responsive Mock/Test Interface Mock.lvclass"/>
+				<Item Name="Mock VI Call.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Mock VI Call/Mock VI Call.lvclass"/>
+			</Item>
+			<Item Name="_Mock Class Generator Test.lvclass" Type="LVClass" URL="../../tests/Mock Class Generator Test/_Mock Class Generator Test.lvclass"/>
+			<Item Name="Argument Comparison Test.lvclass" Type="LVClass" URL="../../tests/Argument Comparison Test/Argument Comparison Test.lvclass"/>
+			<Item Name="Comparator Message Test.lvclass" Type="LVClass" URL="../../tests/Comparison Message Test/Comparator Message Test.lvclass"/>
+			<Item Name="Expectation Message Test.lvclass" Type="LVClass" URL="../../tests/Verify Message Test/Expectation Message Test.lvclass"/>
+			<Item Name="Expectation Test.lvclass" Type="LVClass" URL="../../tests/Expectation Test/Expectation Test.lvclass"/>
+			<Item Name="Mock Generation Demo.vi" Type="VI" URL="../../tests/Demo/Mock Generation Demo.vi"/>
+			<Item Name="Never Expectation Test.lvclass" Type="LVClass" URL="../../tests/Mock Never Expectation Test/Never Expectation Test.lvclass"/>
+			<Item Name="One Expectation Test.lvclass" Type="LVClass" URL="../../tests/One Expectation Test/One Expectation Test.lvclass"/>
+			<Item Name="One or More Expectation Test.lvclass" Type="LVClass" URL="../../tests/One or More Expectation Test/One or More Expectation Test.lvclass"/>
+			<Item Name="Pattern Matching Comparator Test.lvclass" Type="LVClass" URL="../../tests/Pattern Matching Comparator Test/Pattern Matching Comparator Test.lvclass"/>
+			<Item Name="Return Value Test.lvclass" Type="LVClass" URL="../../tests/Return Value Test/Return Value Test.lvclass"/>
+			<Item Name="Tolerant Numeric Comparator Test.lvclass" Type="LVClass" URL="../../tests/Tolerant Numeric Comparator Test/Tolerant Numeric Comparator Test.lvclass"/>
+		</Item>
+		<Item Name="Project Provider" Type="Folder">
+			<Item Name="Project Provider.lvlib" Type="Library" URL="../Project Provider/Project Provider.lvlib"/>
 		</Item>
 		<Item Name="Excluded Dependencies" Type="Folder">
 			<Item Name="Item_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Item_Interface.ctl"/>
@@ -367,48 +412,6 @@
 			<Item Name="mxLvProvider.mxx" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/mxLvProvider.mxx"/>
 			<Item Name="mxLvSetPopupMenu.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvSetPopupMenu.vi"/>
 		</Item>
-		<Item Name="Expectations" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="One.lvclass" Type="LVClass" URL="../Expectations/One/One.lvclass"/>
-			<Item Name="One or More.lvclass" Type="LVClass" URL="../Expectations/One or More/One or More.lvclass"/>
-			<Item Name="Never.lvclass" Type="LVClass" URL="../Expectations/Never/Never.lvclass"/>
-		</Item>
-		<Item Name="Framework" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Mock.lvclass" Type="LVClass" URL="../Framework/Mock/Mock.lvclass"/>
-			<Item Name="Verifier.lvclass" Type="LVClass" URL="../Framework/Verifier/Verifier.lvclass"/>
-			<Item Name="VI Server VI Call.lvclass" Type="LVClass" URL="../Framework/VI Server VI Call/VI Server VI Call.lvclass"/>
-			<Item Name="Parametric VI Call.lvclass" Type="LVClass" URL="../Framework/Parametric VI Call/Parametric VI Call.lvclass"/>
-		</Item>
-		<Item Name="Project Provider" Type="Folder">
-			<Item Name="Project Provider.lvlib" Type="Library" URL="../Project Provider/Project Provider.lvlib"/>
-		</Item>
-		<Item Name="Scripting" Type="Folder">
-			<Item Name="Mock Class Generator.lvclass" Type="LVClass" URL="../Scripting/Mock Class Generator/Mock Class Generator.lvclass"/>
-			<Item Name="Mock Class Updater.lvclass" Type="LVClass" URL="../Scripting/Mock Class Updater/Mock Class Updater.lvclass"/>
-			<Item Name="Templates.lvlib" Type="Library" URL="../Scripting/Templates/Templates.lvlib"/>
-		</Item>
-		<Item Name="Test Doubles" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Test Interface.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Test Interface/Test Interface.lvclass"/>
-			<Item Name="Test Interface Mock.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Test Interface Responsive Mock/Test Interface Mock.lvclass"/>
-			<Item Name="Mock VI Call.lvclass" Type="LVClass" URL="../../tests/Test Doubles/Mock VI Call/Mock VI Call.lvclass"/>
-		</Item>
-		<Item Name="Tests" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">0</Property>
-			<Item Name="_Mock Class Generator Test.lvclass" Type="LVClass" URL="../../tests/Mock Class Generator Test/_Mock Class Generator Test.lvclass"/>
-			<Item Name="Argument Comparison Test.lvclass" Type="LVClass" URL="../../tests/Argument Comparison Test/Argument Comparison Test.lvclass"/>
-			<Item Name="Comparator Message Test.lvclass" Type="LVClass" URL="../../tests/Comparison Message Test/Comparator Message Test.lvclass"/>
-			<Item Name="Expectation Message Test.lvclass" Type="LVClass" URL="../../tests/Verify Message Test/Expectation Message Test.lvclass"/>
-			<Item Name="Expectation Test.lvclass" Type="LVClass" URL="../../tests/Expectation Test/Expectation Test.lvclass"/>
-			<Item Name="Mock Generation Demo.vi" Type="VI" URL="../../tests/Demo/Mock Generation Demo.vi"/>
-			<Item Name="Never Expectation Test.lvclass" Type="LVClass" URL="../../tests/Mock Never Expectation Test/Never Expectation Test.lvclass"/>
-			<Item Name="One Expectation Test.lvclass" Type="LVClass" URL="../../tests/One Expectation Test/One Expectation Test.lvclass"/>
-			<Item Name="One or More Expectation Test.lvclass" Type="LVClass" URL="../../tests/One or More Expectation Test/One or More Expectation Test.lvclass"/>
-			<Item Name="Pattern Matching Comparator Test.lvclass" Type="LVClass" URL="../../tests/Pattern Matching Comparator Test/Pattern Matching Comparator Test.lvclass"/>
-			<Item Name="Return Value Test.lvclass" Type="LVClass" URL="../../tests/Return Value Test/Return Value Test.lvclass"/>
-			<Item Name="Tolerant Numeric Comparator Test.lvclass" Type="LVClass" URL="../../tests/Tolerant Numeric Comparator Test/Tolerant Numeric Comparator Test.lvclass"/>
-		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
@@ -517,6 +520,7 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="VI Server VI Call.lvclass" Type="LVClass" URL="../Framework/VI Server VI Call/VI Server VI Call.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LMock" Type="Source Distribution">
@@ -537,7 +541,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{24240D9D-E8FC-41C3-B0F5-B025DF78EFCF}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
@@ -549,7 +553,7 @@
 				<Property Name="Destination[3].path" Type="Path">../builds/NI_AB_PROJECTNAME/resource/Framework/Providers</Property>
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{841E5D4B-DECE-4ED5-A64D-3ED25323106C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1EC360CC-5742-4AA2-947B-3CA915A54B72}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -562,12 +566,10 @@
 				<Property Name="Source[10].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Core/Comparator.lvclass</Property>
 				<Property Name="Source[10].newName" Type="Str">LMock Comparator.lvclass</Property>
-				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[10].type" Type="Str">Library</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Core/Expectation.lvclass</Property>
 				<Property Name="Source[11].newName" Type="Str">LMock Expectation.lvclass</Property>
-				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].type" Type="Str">Library</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Framework/Verifier.lvclass</Property>
@@ -575,10 +577,42 @@
 				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[12].type" Type="Str">Library</Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Framework/VI Server VI Call.lvclass</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Core/VI Call.lvclass</Property>
 				<Property Name="Source[13].newName" Type="Str">LMock VI Call.lvclass</Property>
 				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[13].type" Type="Str">Library</Property>
+				<Property Name="Source[14].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[14].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Tests</Property>
+				<Property Name="Source[14].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[14].type" Type="Str">Container</Property>
+				<Property Name="Source[15].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[15].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Core</Property>
+				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[15].type" Type="Str">Container</Property>
+				<Property Name="Source[16].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Comparators/Identical Inputs Comparator.lvclass</Property>
+				<Property Name="Source[16].newName" Type="Str">LMock Identical Inputs Comparator.lvclass</Property>
+				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[16].type" Type="Str">Library</Property>
+				<Property Name="Source[17].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[17].itemID" Type="Ref">/My Computer/Comparators/Tolerant Numeric Input Comparator.lvclass</Property>
+				<Property Name="Source[17].newName" Type="Str">LMock Tolerant Numeric Input Comparator.lvclass</Property>
+				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[17].type" Type="Str">Library</Property>
+				<Property Name="Source[18].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[18].itemID" Type="Ref">/My Computer/Comparators/Matching String Input Comparator.lvclass</Property>
+				<Property Name="Source[18].newName" Type="Str">LMock Matching String Input Comparator.lvclass</Property>
+				<Property Name="Source[18].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[18].type" Type="Str">Library</Property>
+				<Property Name="Source[19].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[19].itemID" Type="Ref">/My Computer/Comparators/Any Inputs Comparator.lvclass</Property>
+				<Property Name="Source[19].newName" Type="Str">LMock Any Inputs Comparator.lvclass</Property>
+				<Property Name="Source[19].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[19].type" Type="Str">Library</Property>
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
@@ -587,6 +621,29 @@
 				<Property Name="Source[2].newName" Type="Str">LMock_</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[20].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/My Computer/Expectations/One.lvlib</Property>
+				<Property Name="Source[20].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[20].newName" Type="Str">LMock One.lvlib</Property>
+				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[20].type" Type="Str">Library</Property>
+				<Property Name="Source[21].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[21].itemID" Type="Ref">/My Computer/Expectations/One or More.lvlib</Property>
+				<Property Name="Source[21].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[21].newName" Type="Str">LMock One or More.lvlib</Property>
+				<Property Name="Source[21].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[21].type" Type="Str">Library</Property>
+				<Property Name="Source[22].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[22].itemID" Type="Ref">/My Computer/Expectations/Never.lvlib</Property>
+				<Property Name="Source[22].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[22].newName" Type="Str">LMock Never.lvlib</Property>
+				<Property Name="Source[22].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[22].type" Type="Str">Library</Property>
+				<Property Name="Source[23].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[23].itemID" Type="Ref">/My Computer/Framework/Parametric VI Call.lvclass</Property>
+				<Property Name="Source[23].newName" Type="Str">LMock Parametric VI Call.lvclass</Property>
+				<Property Name="Source[23].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[23].type" Type="Str">Library</Property>
 				<Property Name="Source[3].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
@@ -614,7 +671,7 @@
 				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Scripting</Property>
-				<Property Name="Source[6].newName" Type="Str">LMock_</Property>
+				<Property Name="Source[6].newName" Type="Str">LMock </Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">Container</Property>
 				<Property Name="Source[7].Container.applyDestination" Type="Bool">true</Property>
@@ -636,7 +693,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Excluded Dependencies</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">14</Property>
+				<Property Name="SourceCount" Type="Int">24</Property>
 			</Item>
 		</Item>
 	</Item>
