@@ -22,14 +22,11 @@
 		<Item Name="Framework" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Mock.lvclass" Type="LVClass" URL="../Framework/Mock/Mock.lvclass"/>
-			<Item Name="Verifier.lvclass" Type="LVClass" URL="../Framework/Verifier/Verifier.lvclass"/>
+			<Item Name="LMock API.lvlib" Type="Library" URL="../Framework/LMock API.lvlib"/>
 			<Item Name="Parametric VI Call.lvclass" Type="LVClass" URL="../Framework/Parametric VI Call/Parametric VI Call.lvclass"/>
 		</Item>
 		<Item Name="Expectations" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Never.vi" Type="VI" URL="../Expectations/Never/Never.vi"/>
-			<Item Name="One or More.vi" Type="VI" URL="../Expectations/One or More/One or More.vi"/>
-			<Item Name="One.vi" Type="VI" URL="../Expectations/One/One.vi"/>
 			<Item Name="One.lvlib" Type="Library" URL="../Expectations/One/One.lvlib"/>
 			<Item Name="One or More.lvlib" Type="Library" URL="../Expectations/One or More/One or More.lvlib"/>
 			<Item Name="Never.lvlib" Type="Library" URL="../Expectations/Never/Never.lvlib"/>
@@ -553,7 +550,7 @@
 				<Property Name="Destination[3].path" Type="Path">../builds/NI_AB_PROJECTNAME/resource/Framework/Providers</Property>
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1EC360CC-5742-4AA2-947B-3CA915A54B72}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{99F78982-41A2-4B55-83BA-B698F4B43BD4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -572,7 +569,7 @@
 				<Property Name="Source[11].newName" Type="Str">LMock Expectation.lvclass</Property>
 				<Property Name="Source[11].type" Type="Str">Library</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Framework/Verifier.lvclass</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Framework/LMock API.lvlib/Verifier.lvclass</Property>
 				<Property Name="Source[12].newName" Type="Str">LMock Verifier.lvclass</Property>
 				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[12].type" Type="Str">Library</Property>
@@ -644,6 +641,12 @@
 				<Property Name="Source[23].newName" Type="Str">LMock Parametric VI Call.lvclass</Property>
 				<Property Name="Source[23].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[23].type" Type="Str">Library</Property>
+				<Property Name="Source[24].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[24].itemID" Type="Ref">/My Computer/Framework/LMock API.lvlib</Property>
+				<Property Name="Source[24].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[24].newName" Type="Str">LMock.lvlib</Property>
+				<Property Name="Source[24].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[24].type" Type="Str">Library</Property>
 				<Property Name="Source[3].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
@@ -693,7 +696,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Excluded Dependencies</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">24</Property>
+				<Property Name="SourceCount" Type="Int">25</Property>
 			</Item>
 		</Item>
 	</Item>
