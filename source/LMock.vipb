@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-20 19:46:39" Modified_Date="2023-07-15 00:18:02" Creator="AntonSundqvist" Comments="" ID="49ca22852a97ded46181bf93889c166b">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-20 19:46:39" Modified_Date="2023-07-16 23:27:25" Creator="AntonSundqvist" Comments="" ID="ee010ae40ddf6873901f9a5c250af8c1">
   <Library_General_Settings>
     <Package_File_Name>Astemes_lib_LMock</Package_File_Name>
-    <Library_Version>1.0.0.4</Library_Version>
+    <Library_Version>1.0.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds\LMock</Library_Source_Folder>
     <Library_Output_Folder>..\builds\LMock</Library_Output_Folder>
@@ -253,10 +253,10 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\LMock\vi.lib\Astemes\LMock\Verifier\Verify.vi</Path>
+        <Path>..\builds\LMock\vi.lib\Astemes\LMock\Verify.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>60F11A05E7BA6690A5C0D2F40F0ED3A2</GUID>
+      <GUID>0CF9E378FF438F0133AEE47AEB163F89</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
