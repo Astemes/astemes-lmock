@@ -123,7 +123,7 @@ This is intentional, as it results in intuitively readable test code.
 Similar to before, the system under test is initialized (3.), exercised (4.), and cleared (5.). 
 As we do not need to verify calls to the mock, we uses the regular test verification methods of LUnit to verify that the response is properly parsed.
 
-### Updateing a Mock Class
+### Updating a Mock Class
 
 As we work with the code, we might need to change or update our design.
 Let us now explore such a scenario and assume that we now need to make sure that the bus is closed when we are done with it. 
@@ -135,6 +135,22 @@ LMock offers a feature for update existing Mocks by right-clicking a mock in the
 
 This will replace the existing mock with a new mock generated from the mocked interface.
 We can now continue writing tests using the new API VI:s.
+
+### Discussion
+
+The example above shows how driving the design by tests, enabled by mocks, puts a pressure on the design.
+One might argue that two concrete classses, an interface, a mock, and a test case is overkill for the simple driver developent shown above.
+It is important to keep in mind that a real world application would not be considered done at this point and would grow in complexity considerably before being put into production. 
+And then the importance of design increases significantly.
+
+The classes developed above are highly cohesive and the ``Driver.lvclass`` is weakly coupled to the serial interface through the ``Serial.lvclass`` interface.
+There is a clear separation of concerns and we have a clear architectural boundary introduced by the abstract interfaec.
+This gives a lot of flexibility as we may
+- change the implementation of the ``Serial.lvclass`` interface to use a different bus or calling the bus in a different way
+- change how the data is sent to the bus, *e.g.* adding end of line characters
+- add logging of the communication, through wrapping the implementation of the ``Serial.lvclass`` in a logging decorator
+- and more
+**without making any changes to our ``Driver.lvclass``**.
 
 ## A Recommendation
 
