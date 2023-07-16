@@ -33,10 +33,10 @@
 		</Item>
 		<Item Name="Comparators" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Identical Inputs Comparator.lvclass" Type="LVClass" URL="../Comparators/Identical Arguments Comparator/Identical Inputs Comparator.lvclass"/>
-			<Item Name="Tolerant Numeric Input Comparator.lvclass" Type="LVClass" URL="../Comparators/Tolerant Numeric Argument Comparator/Tolerant Numeric Input Comparator.lvclass"/>
-			<Item Name="Matching String Input Comparator.lvclass" Type="LVClass" URL="../Comparators/String Argument Matching Comparator/Matching String Input Comparator.lvclass"/>
-			<Item Name="Any Inputs Comparator.lvclass" Type="LVClass" URL="../Comparators/Ignore Inputs Comparator/Any Inputs Comparator.lvclass"/>
+			<Item Name="Identical Inputs Comparator.lvclass" Type="LVClass" URL="../Comparators/Identical Inputs Comparator/Identical Inputs Comparator.lvclass"/>
+			<Item Name="Tolerant Numeric Input Comparator.lvclass" Type="LVClass" URL="../Comparators/Tolerant Numeric Input Comparator/Tolerant Numeric Input Comparator.lvclass"/>
+			<Item Name="Matching String Input Comparator.lvclass" Type="LVClass" URL="../Comparators/Matching String Input Comparator/Matching String Input Comparator.lvclass"/>
+			<Item Name="Any Inputs Comparator.lvclass" Type="LVClass" URL="../Comparators/Any Inputs Comparator/Any Inputs Comparator.lvclass"/>
 		</Item>
 		<Item Name="Scripting" Type="Folder">
 			<Item Name="Mock Class Generator.lvclass" Type="LVClass" URL="../Scripting/Mock Class Generator/Mock Class Generator.lvclass"/>
@@ -517,7 +517,6 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="VI Server VI Call.lvclass" Type="LVClass" URL="../Framework/VI Server VI Call/VI Server VI Call.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LMock" Type="Source Distribution">
