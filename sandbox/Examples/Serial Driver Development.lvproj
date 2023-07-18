@@ -15,7 +15,7 @@
 		<Item Name="Driver.lvclass" Type="LVClass" URL="../Driver/Driver.lvclass"/>
 		<Item Name="Driver Test.lvclass" Type="LVClass" URL="../Driver Test Case/Driver Test.lvclass"/>
 		<Item Name="Serial.lvclass" Type="LVClass" URL="../Serial/Serial.lvclass/Serial.lvclass"/>
-		<Item Name="Mock Serial.lvclass" Type="LVClass" URL="../Mock Serial.lvclass"/>
+		<Item Name="Mock Serial.lvclass" Type="LVClass" URL="../Mock Serial/Mock Serial.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
@@ -25,7 +25,6 @@
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="LMock Comparator.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LMock/LMock Comparator.lvclass"/>
 				<Item Name="LMock Expectation.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LMock/LMock Expectation.lvclass"/>
-				<Item Name="LMock Verifier.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LMock/LMock Verifier.lvclass"/>
 				<Item Name="LMock VI Call.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LMock/LMock VI Call.lvclass"/>
 				<Item Name="LUnit Runnable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Runnable.lvclass"/>
 				<Item Name="Mock.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LMock/Mock.lvclass"/>
@@ -33,15 +32,14 @@
 				<Item Name="Test Case.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Case.lvclass"/>
 				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
 				<Item Name="LMock Parametric VI Call.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LMock/LMock Parametric VI Call.lvclass"/>
-				<Item Name="One.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LMock/One.vi"/>
 				<Item Name="LMock One.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/LMock/LMock One.lvlib"/>
 				<Item Name="LMock Any Inputs Comparator.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LMock/LMock Any Inputs Comparator.lvclass"/>
-				<Item Name="VI Server VI Call.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LMock/VI Server VI Call.lvclass"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="LMock Tolerant Numeric Input Comparator.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LMock/LMock Tolerant Numeric Input Comparator.lvclass"/>
 				<Item Name="LMock Matching String Input Comparator.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LMock/LMock Matching String Input Comparator.lvclass"/>
 				<Item Name="LMock Identical Inputs Comparator.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LMock/LMock Identical Inputs Comparator.lvclass"/>
+				<Item Name="LMock.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/LMock/LMock.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
