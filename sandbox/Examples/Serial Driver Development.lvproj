@@ -16,6 +16,10 @@
 		<Item Name="Driver Test.lvclass" Type="LVClass" URL="../Driver Test Case/Driver Test.lvclass"/>
 		<Item Name="Serial.lvclass" Type="LVClass" URL="../Serial/Serial.lvclass/Serial.lvclass"/>
 		<Item Name="Mock Serial.lvclass" Type="LVClass" URL="../Mock Serial/Mock Serial.lvclass"/>
+		<Item Name="Log.lvclass" Type="LVClass" URL="../Log/Log.lvclass"/>
+		<Item Name="Log Mock.lvclass" Type="LVClass" URL="../Log Mock/Log Mock.lvclass"/>
+		<Item Name="Serial Logging Decorator Test.lvclass" Type="LVClass" URL="../Logging Decorator Test/Serial Logging Decorator Test.lvclass"/>
+		<Item Name="Serial Logging Decorator.lvclass" Type="LVClass" URL="../Serial Logging Decorator/Serial Logging Decorator.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
