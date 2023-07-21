@@ -9,11 +9,15 @@ The LMock toolkit features an expressive API, powerful scripting features, and d
 
 LMock is an add-on to [LUnit](https://www.github.com/astemes/astemes-lunit) and is maintained by Astemes under an MIT license.
 
+The full documentation is available at [https://lmock.astemes.com](https://lmock.astemes.com).
+
 ## Getting Started
 
 Before beginning to use LMock, you will need to have LUnit installed (available at NI Tools Network and VIPM) and you should be familiar with the toolkit.
 Next install the LMock latest package, either from the [Releases](https://github.com/Astemes/astemes-lmock/releases) section of through VIPM.
 After installing LMock, the API is available in the LMock Functions Palette and the right-click menus are avaliable after restarting LabVIEW.
+Please see the [getting started documeentation](https://lmock.astemes.com/).).
+
 For some general advice on working with mocks, see e.g. [this page](https://github.com/mockito/mockito/wiki/How-to-write-good-tests).
 
 

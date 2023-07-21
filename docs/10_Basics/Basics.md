@@ -139,12 +139,100 @@ A well designed system lets us toggle the logging on or off and allows for redir
 
 ### Introducing a New Interface
 
-In the spirit of test driven development, we will start by writing a test.
+In the spirit of test driven development, we will start by creating a test case.
 This test will need to verify that data sent to, and later read from, the instrument is also sent to a log.
+This is the common decorator pattern, which basically means that we create a wrapper for our interface which "decorates" calls made to the interface by adding logging capabilities.
+
+We could define a decorator class with the following structure to start filling in our fresh test case.
+
+![logging decorator](img/logging-decorator.jpg)
+
+The ``Read.vi`` and ``Write.vi`` are the overrides of the ``Serial.lvclass`` interface (which we are about to decorate).
+The ``Add Logging to Serial.vi`` is the VI we are going to use to attach the decorator to any class implementing the ``Serial.lvclass`` interface (including our mock from before).
+
 The implementation of the log is not really important at this point, we just need an interface representing the log to which we can write.
 The concrete log may then be implemented as a file, an indicator, an email message or whatever we may need later in our project.
+Let us simply define the an interface for the log with a ``Write.vi`` method as below.
 
-Let us simply define the an interface for the log with a ``Write.vi`` method.
+![Log interface](img/log-interface.jpg)
+
+You can probably guess what the abstract write VI looks like; it only has one string control in addition to the default control and indicator pairs.
+
+We can now finnish our first test case which looks as follows.
+
+![logging test case 1](img/Log%20Test%20Case%201.png)
+
+This looks very familiar to what we had before, we create a mock **(1.)** and declare an expectation that the string literal "Test" will be matched to the log **(2.)** and **(3.)**.
+In this case we use the polymorphic VI selector to use the ``Match String`` verison of the comparator.
+This works similar to the native LabVIEW ``Match Pattern.vi`` for any string input, *i.e.* the test will pass if the stringe "Test" is matched with what is written to the log.
+This is useful, as we might want to add more information to the log *e.g.* a time stamp. 
+
+Note that we use the abstract ``Serial.lvclass`` interface **(4.)** to which we attach the decorator **(5.)**.
+This is because we are not really interested in what the Serial interface does, we now only care about what is written to the log.
+Using the abstract interface makes the test easier to interpret (and also shaves off some microseconds from the test time).
+
+Finally we call the ``Write.vi`` on our new decorator, which should trigger the written data to be sent to the log.
+As all the block diagrams are empty, this fails with the result
+
+```
+Write to Log.vi Expected Once but Never Called with String Inputs Matching Expectation
+```
+
+Again, as is often the case during test driven development, the implementation is rather trivial.
+We can now take this one step further and add the time stamp to the log and a "WRITE" string to indicate the action being logged, as eluded to earlier, while still keeping the test passing.
+Now the result message reads as
+
+```
+Write to Log.vi Called Once with String Inputs Matching Expectation
+Call 1: Text to Write: "Test" found in "21/07/2023 21:17:42	WRITE:	Test", error in (no error): No Error(Cluster) == No Error(Cluster)
+```
+
+The purpose of the decorator design pattern is to add behavior to a class, while not changing what the decorated class does.
+Currently, our code fails to do this as the ``Write.vi`` call is never forwarded to the decorate class.
+Let´s add a test to fix this.
+
+![Log test case 2](img/Log%20Test%20Case%202.png)
+
+We now create **(1.)** the mock and configure our expectation **(2.)** that it should be called with the string literal "Test" **(3.)**.
+We now use the abstract ``Log.lvclass`` interface **(4.)** as input to the ``Add Logging to Serial.vi`` **(5.)**to remove any ambiguity as to what we are testing.
+We then call the ``Write.vi`` method **(6.)**, which is the call that must be forwarded to the decorated class.
+As expected, this test first fails and after a very straight forward implementation the result reads.
+
+```
+Write.vi Called Once with Expected Inputs
+Call 1: error in (no error): No Error(Cluster) == No Error(Cluster), write buffer: Test(String) == Test(String)
+```
+
+Next we will need to implement the ``Read.vi`` method of the ``Serial.lvclass`` interface.
+This will be very similar to what we have seen before, except now we will need to use both our mocks in the same test.
+We will need to use our ``Mock Serial`` to fake what is read from the bus and our ``Mock Log`` to verify that this data is actually forwarded to the log.
+The test will look as below.
+
+![log test 3](img/Log%20Test%20Case%203.png)
+
+This should look familiar at this point.
+We create a ``Mock Serial``**(1.)** and use the ``When Read.vi``**(2.)** to declare that it should return the string literal "Test" when the ``Read.vi`` method is called.
+We continue to create a ``Mock Log`` **(3.)** which we configure to expect one call to ``Log.vi`` with the same string literal as before **(4-5)**.
+We then attach our logging decorator to the ``Mock Serial`` and direct the output to the ``Mock Log``.
+Finally, we call the ``Read.vi``**(7.)** and verify our expectation **(8.)**.
+
+After implementing the ``Read.vi`` and adding the time stamp and "READ" string, we get the result:
+
+```
+Write to Log.vi Called Once with String Inputs Matching Expectation
+Call 1: Text to Write: "Test" found in "21/07/2023 21:48:31	READ:	Test", error in (no error): No Error(Cluster) == No Error(Cluster)
+```
+
+We should now write one more test to verify that the output of the decorated ``Read.vi`` method is returned by the decorator.
+(As a footnote, I first skipped this test as I thought it was too trivial, which caused a bug and pushed me to adding it anyway.
+In my experience, it is more common than not that I make a misstake when I cheat and skip writing a test.
+But maybe I am just a sub-average developer.)
+Writing this final test is left as an exercise.
+
+## Putting it All Together
+
+Let us loo at how we would use the classes and interfaces developed above in an actual application.
+The §
 
 ## Discussion
 
