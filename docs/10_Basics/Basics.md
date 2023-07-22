@@ -1,15 +1,25 @@
 # Introduction to LMock
 
-This document intriduces the basic features and components of LMock.
-For a more detailed discussion on how to write mock-based tests using LMock, please see [this page](../30_Writing%20Tests%20Using%20Mocks/Writing%20Tests%20using%20Mocks.md).
+This document introduces the basic features and components of LMock.
+For a more detailed discussion on how to write mock-based tests using LMock, please see [this page](../30_Writing%20Tests%20Using%20Mocks).
+
+## Typcial Use Case
+
+LMock is used to generate test doubles to replace concrete classes in unit and integration tests.
+A LabVIEW interface must be used to define the VI:s which are to be mocked.
+The system under test would typically depend on the abstract Interface and the concrete class would be used in the actual application. 
+One typically starts with a first version of the Interface and crete a mock class for the interface.
+This class would be used in tests to verify expected behavior and simulate return values during test.
+The generated mock can later be updated when the mocked Interface changes.
 
 ## The Mock Class
 
-LMock is designed for mocking a LabVIEW interface.
-A mock may be generated from any interface using the right click menu in the LabVIEW Project Explorer.
-The generated mock class will inherit from the LMock ``Mock.lvclass`` and implement all the dynamic dispatch VI:s of the mocked interface.
-It will also provide a When VI for each dynamic dispatch VI, which is used to declare return values *when* the VI is called.
-If the mocked interface changes, the mock may simply be updated using the right-click menu in the project explorer.
+LMock is designed for mocking LabVIEW Interfaces.
+A mock may be generated from any Interface using the right click menu in the LabVIEW Project Explorer.
+The generated mock class will inherit from the LMock ``Mock.lvclass`` and implement all the dynamic dispatch VI:s of the mocked Interface.
+It will also provide a When VI for each dynamic dispatch VI.
+When VI:s are used to declare return values *when* the VI is called.
+If the mocked Interface changes, the mock may be updated using the right-click menu in the project explorer.
 
 The ``Mock.lvclass`` implements the necessary boilerplate code for handling expectations, VI calls and return values.
 The implementation uses LabVIEW queues, which is a very performant structure with little overhead.
@@ -23,13 +33,15 @@ The LMock API can be found in the LMock Palette after installing the package.
 
 It consists of three expectation VIs ``Never.vi``, ``One.vi`` and ``One or More.vi`` as well as the ``Verify.vi``.
 
-A typical use case would be to first create a mock using its constructor, then configure expectations on the mock using the expectation API and finally call the ``Verify.vi`` which verifies that the expectations are met.
+A typical use case would be to first create a mock using its constructor, then configure expectations on the mock using the expectation API.
+Once the expectations are configured the code under test would bwe exercised and the ``Verify.vi`` would finally be called.
+This API method verifies that the expectations are met and generates the result description message.
 Return values from each VI call may optionally be declared using the When API.
 
 ## Expectations
 
 The expectation API is designed for readability.
-An expectation is declared using one of the provided API VIs together with a call to the the expected VI.
+An expectation is declared using one of the provided API VIs together with a call to the expected VI.
 An example is given below.
 
 ![Expectation](img/Expectation.png)
@@ -45,7 +57,7 @@ All the expectations are polymorphic and offers multiple comparison options used
 
 ## Comparisons
 
-Comparisons define *how* two VI calls should be compared and *when* they should be regarded as equal.
+Comparisons define *how* two VI calls should be compared and if they should be regarded as matching.
 The available comparators are listed below.
 
 - Identical Inputs - Requires all inputs to be equal for the VI calls to match
@@ -57,17 +69,17 @@ The available comparators are listed below.
 
 LMock provides an API for queueing up return values from a VI call through the When API.
 Using the generated ``When vi_name.vi`` VI, return values for calls to the ``vi_name.vi`` are enqueued.
-Each call to ``vi_name.vi`` will dequeue the next return values, using LabVIEW type-specific defauls if queue is empty.
+Each call to ``vi_name.vi`` will dequeue the next return values, using LabVIEW type-specific defaults if the queue is empty.
 
 ![when API](img/when-api.png)
 
-The When API is slightly unconventional as it reverses data flow.
+The When API is slightly unconventional, as it reverses the direction of data flow to be right-to-left for return values.
 Each indicator on the actual VI is replaced with a control on the corresponding When VI, which makes the code read nicely in a unit test.
 
 ## Failure descriptions
 
 One important feature of LMock is that it provides fluent failure descriptions when mocks are verified.
-The descriptions explains the expected number of VI calls, how the VI:s are compared and lists calls made to the expected VI.
+The descriptions explains, in plain English, the expected number of VI calls, how the VI:s are compared and lists calls made to the expected VI.
 An example would be the following result description of a passing test
 
 ```
