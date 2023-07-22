@@ -1,6 +1,6 @@
 # Astemes LMock Toolkit
 
-LMock is a LabVIEW mocking framework used for generating mock classes through scripting.
+LMock is a LabVIEW mocking framework used for automatically generating and updating mock classes.
 A mock is a test double used, in place of a concrete implementation, when writing automated tests.
 This enables testing units of code in isolation, as the interface to the rest of the system is "mocked".
 Using a mock the behavior of the code under test can be verified, by checking that the expected VI calls are made.
@@ -42,6 +42,7 @@ While it is pretty easy to write test diubles in LabVIEW, it is a task which bec
 Often the same type of code is written or copy/pasted repeatedly in slightly different ways, which makes the tests error prone and unnecessarily difficult to understand.
 
 The reason why LMock exists is to:
+
 - Eliminate mistakes caused by manual duplication of boilerplate code
 - Improve expressiveness and fault localization of mock-based tests
 - Reduce test time through very fast mock code execution
