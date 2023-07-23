@@ -16,40 +16,18 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Serial Driver" Type="Folder">
-				<Item Name="Driver" Type="Folder">
-					<Item Name="Driver.lvclass" Type="LVClass" URL="../Examples/Serial Driver/Driver/Driver.lvclass"/>
-				</Item>
-				<Item Name="Driver Test Case" Type="Folder">
-					<Item Name="Driver Test.lvclass" Type="LVClass" URL="../Examples/Serial Driver/Driver Test Case/Driver Test.lvclass"/>
-				</Item>
-				<Item Name="Log" Type="Folder">
-					<Item Name="Log.lvclass" Type="LVClass" URL="../Examples/Serial Driver/Log/Log.lvclass"/>
-				</Item>
-				<Item Name="Log Mock" Type="Folder">
-					<Item Name="Mock Log.lvclass" Type="LVClass" URL="../Examples/Serial Driver/Log Mock/Mock Log.lvclass"/>
-				</Item>
-				<Item Name="Logging Decorator Test" Type="Folder">
-					<Item Name="Serial Logging Decorator Test.lvclass" Type="LVClass" URL="../Examples/Serial Driver/Logging Decorator Test/Serial Logging Decorator Test.lvclass"/>
-				</Item>
-				<Item Name="Mock Serial" Type="Folder">
-					<Item Name="Mock Serial.lvclass" Type="LVClass" URL="../Examples/Serial Driver/Mock Serial/Mock Serial.lvclass"/>
-				</Item>
-				<Item Name="Serial" Type="Folder">
-					<Item Name="Serial.lvclass" Type="Folder">
-						<Item Name="Serial.lvclass" Type="LVClass" URL="../Examples/Serial Driver/Serial/Serial.lvclass/Serial.lvclass"/>
-					</Item>
-				</Item>
-				<Item Name="Serial Logging Decorator" Type="Folder">
-					<Item Name="Serial Logging Decorator.lvclass" Type="LVClass" URL="../Examples/Serial Driver/Serial Logging Decorator/Serial Logging Decorator.lvclass"/>
-				</Item>
-				<Item Name="Simulated Serial" Type="Folder">
-					<Item Name="Simulated Serial.lvclass" Type="LVClass" URL="../Examples/Serial Driver/Simulated Serial/Simulated Serial.lvclass"/>
-				</Item>
-				<Item Name="String Indicator Logger" Type="Folder">
-					<Item Name="String Indicator Logger.lvclass" Type="LVClass" URL="../Examples/Serial Driver/String Indicator Logger/String Indicator Logger.lvclass"/>
-				</Item>
 				<Item Name="Demo.vi" Type="VI" URL="../Examples/Serial Driver/Demo.vi"/>
 				<Item Name="Serial Driver Development.lvproj" Type="Document" URL="../Examples/Serial Driver/Serial Driver Development.lvproj"/>
+				<Item Name="Driver.lvclass" Type="LVClass" URL="../Examples/Serial Driver/Driver/Driver.lvclass"/>
+				<Item Name="Simulated Serial.lvclass" Type="LVClass" URL="../Examples/Serial Driver/Simulated Serial/Simulated Serial.lvclass"/>
+				<Item Name="String Indicator Logger.lvclass" Type="LVClass" URL="../Examples/Serial Driver/String Indicator Logger/String Indicator Logger.lvclass"/>
+				<Item Name="Driver Test.lvclass" Type="LVClass" URL="../Examples/Serial Driver/Driver Test Case/Driver Test.lvclass"/>
+				<Item Name="Log.lvclass" Type="LVClass" URL="../Examples/Serial Driver/Log/Log.lvclass"/>
+				<Item Name="Mock Log.lvclass" Type="LVClass" URL="../Examples/Serial Driver/Log Mock/Mock Log.lvclass"/>
+				<Item Name="Serial Logging Decorator Test.lvclass" Type="LVClass" URL="../Examples/Serial Driver/Logging Decorator Test/Serial Logging Decorator Test.lvclass"/>
+				<Item Name="Mock Serial.lvclass" Type="LVClass" URL="../Examples/Serial Driver/Mock Serial/Mock Serial.lvclass"/>
+				<Item Name="Serial.lvclass" Type="LVClass" URL="../Examples/Serial Driver/Serial/Serial.lvclass/Serial.lvclass"/>
+				<Item Name="Serial Logging Decorator.lvclass" Type="LVClass" URL="../Examples/Serial Driver/Serial Logging Decorator/Serial Logging Decorator.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Core" Type="Folder">
@@ -587,10 +565,10 @@
 				<Property Name="Destination[3].path" Type="Path">../builds/NI_AB_PROJECTNAME/resource/Framework/Providers</Property>
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[4].destName" Type="Str">Examples</Property>
-				<Property Name="Destination[4].path" Type="Path">../builds/NI_AB_PROJECTNAME/examples/Astemes/LMock</Property>
+				<Property Name="Destination[4].path" Type="Path">../builds/NI_AB_PROJECTNAME/examples/Astemes/LMock/Serial Driver</Property>
 				<Property Name="Destination[4].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Source[0].itemID" Type="Str">{14CE9607-895E-4AE1-AC9C-602283A22C06}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3FAF4471-8F8B-41DF-8042-26DB81A54F12}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
