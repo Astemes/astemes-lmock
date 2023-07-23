@@ -14,6 +14,44 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Examples" Type="Folder">
+			<Item Name="Serial Driver" Type="Folder">
+				<Item Name="Driver" Type="Folder">
+					<Item Name="Driver.lvclass" Type="LVClass" URL="../Examples/Serial Driver/Driver/Driver.lvclass"/>
+				</Item>
+				<Item Name="Driver Test Case" Type="Folder">
+					<Item Name="Driver Test.lvclass" Type="LVClass" URL="../Examples/Serial Driver/Driver Test Case/Driver Test.lvclass"/>
+				</Item>
+				<Item Name="Log" Type="Folder">
+					<Item Name="Log.lvclass" Type="LVClass" URL="../Examples/Serial Driver/Log/Log.lvclass"/>
+				</Item>
+				<Item Name="Log Mock" Type="Folder">
+					<Item Name="Mock Log.lvclass" Type="LVClass" URL="../Examples/Serial Driver/Log Mock/Mock Log.lvclass"/>
+				</Item>
+				<Item Name="Logging Decorator Test" Type="Folder">
+					<Item Name="Serial Logging Decorator Test.lvclass" Type="LVClass" URL="../Examples/Serial Driver/Logging Decorator Test/Serial Logging Decorator Test.lvclass"/>
+				</Item>
+				<Item Name="Mock Serial" Type="Folder">
+					<Item Name="Mock Serial.lvclass" Type="LVClass" URL="../Examples/Serial Driver/Mock Serial/Mock Serial.lvclass"/>
+				</Item>
+				<Item Name="Serial" Type="Folder">
+					<Item Name="Serial.lvclass" Type="Folder">
+						<Item Name="Serial.lvclass" Type="LVClass" URL="../Examples/Serial Driver/Serial/Serial.lvclass/Serial.lvclass"/>
+					</Item>
+				</Item>
+				<Item Name="Serial Logging Decorator" Type="Folder">
+					<Item Name="Serial Logging Decorator.lvclass" Type="LVClass" URL="../Examples/Serial Driver/Serial Logging Decorator/Serial Logging Decorator.lvclass"/>
+				</Item>
+				<Item Name="Simulated Serial" Type="Folder">
+					<Item Name="Simulated Serial.lvclass" Type="LVClass" URL="../Examples/Serial Driver/Simulated Serial/Simulated Serial.lvclass"/>
+				</Item>
+				<Item Name="String Indicator Logger" Type="Folder">
+					<Item Name="String Indicator Logger.lvclass" Type="LVClass" URL="../Examples/Serial Driver/String Indicator Logger/String Indicator Logger.lvclass"/>
+				</Item>
+				<Item Name="Demo.vi" Type="VI" URL="../Examples/Serial Driver/Demo.vi"/>
+				<Item Name="Serial Driver Development.lvproj" Type="Document" URL="../Examples/Serial Driver/Serial Driver Development.lvproj"/>
+			</Item>
+		</Item>
 		<Item Name="Core" Type="Folder">
 			<Item Name="Comparator.lvclass" Type="LVClass" URL="../Core/Comparator/Comparator.lvclass"/>
 			<Item Name="Expectation.lvclass" Type="LVClass" URL="../Core/Expectation/Expectation.lvclass"/>
@@ -21,7 +59,7 @@
 		</Item>
 		<Item Name="Framework" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Mock.lvclass" Type="LVClass" URL="../Framework/Mock/Mock.lvclass"/>
+			<Item Name="LMock Mock.lvclass" Type="LVClass" URL="../Framework/Mock/LMock Mock.lvclass"/>
 			<Item Name="LMock API.lvlib" Type="Library" URL="../Framework/LMock API.lvlib"/>
 			<Item Name="Parametric VI Call.lvclass" Type="LVClass" URL="../Framework/Parametric VI Call/Parametric VI Call.lvclass"/>
 		</Item>
@@ -537,7 +575,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{24240D9D-E8FC-41C3-B0F5-B025DF78EFCF}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
@@ -548,8 +586,11 @@
 				<Property Name="Destination[3].destName" Type="Str">Project Provider</Property>
 				<Property Name="Destination[3].path" Type="Path">../builds/NI_AB_PROJECTNAME/resource/Framework/Providers</Property>
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D4E932BF-83C6-4B9D-B9B6-31C570FA1E95}</Property>
+				<Property Name="Destination[4].destName" Type="Str">Examples</Property>
+				<Property Name="Destination[4].path" Type="Path">../builds/NI_AB_PROJECTNAME/examples/Astemes/LMock</Property>
+				<Property Name="Destination[4].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">5</Property>
+				<Property Name="Source[0].itemID" Type="Str">{14CE9607-895E-4AE1-AC9C-602283A22C06}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -646,6 +687,18 @@
 				<Property Name="Source[24].newName" Type="Str">LMock.lvlib</Property>
 				<Property Name="Source[24].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[24].type" Type="Str">Library</Property>
+				<Property Name="Source[25].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[25].itemID" Type="Ref">/My Computer/Framework/LMock Mock.lvclass</Property>
+				<Property Name="Source[25].newName" Type="Str">Mock.lvclass</Property>
+				<Property Name="Source[25].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[25].type" Type="Str">Library</Property>
+				<Property Name="Source[26].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[26].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[26].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[26].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[26].itemID" Type="Ref">/My Computer/Examples</Property>
+				<Property Name="Source[26].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[26].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
@@ -695,7 +748,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Excluded Dependencies</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">25</Property>
+				<Property Name="SourceCount" Type="Int">27</Property>
 			</Item>
 		</Item>
 	</Item>
