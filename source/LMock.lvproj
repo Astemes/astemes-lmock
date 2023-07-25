@@ -14,6 +14,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Core" Type="Folder">
+			<Item Name="Comparator.lvclass" Type="LVClass" URL="../Core/Comparator/Comparator.lvclass"/>
+			<Item Name="Expectation.lvclass" Type="LVClass" URL="../Core/Expectation/Expectation.lvclass"/>
+			<Item Name="VI Call.lvclass" Type="LVClass" URL="../Core/VI Call/VI Call.lvclass"/>
+		</Item>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Serial Driver" Type="Folder">
 				<Item Name="Demo.vi" Type="VI" URL="../Examples/Serial Driver/Demo.vi"/>
@@ -29,11 +34,6 @@
 				<Item Name="Serial.lvclass" Type="LVClass" URL="../Examples/Serial Driver/Serial/Serial.lvclass/Serial.lvclass"/>
 				<Item Name="Serial Logging Decorator.lvclass" Type="LVClass" URL="../Examples/Serial Driver/Serial Logging Decorator/Serial Logging Decorator.lvclass"/>
 			</Item>
-		</Item>
-		<Item Name="Core" Type="Folder">
-			<Item Name="Comparator.lvclass" Type="LVClass" URL="../Core/Comparator/Comparator.lvclass"/>
-			<Item Name="Expectation.lvclass" Type="LVClass" URL="../Core/Expectation/Expectation.lvclass"/>
-			<Item Name="VI Call.lvclass" Type="LVClass" URL="../Core/VI Call/VI Call.lvclass"/>
 		</Item>
 		<Item Name="Framework" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
