@@ -43,6 +43,7 @@ Often the same type of code is written or copy/pasted repeatedly in slightly dif
 
 The reason why LMock exists is to:
 
+- Enable robust mock-based testing
 - Eliminate mistakes caused by manual duplication of boilerplate code
 - Improve expressiveness and fault localization of mock-based tests
 - Reduce test time through very fast mock code execution
