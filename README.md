@@ -41,12 +41,13 @@ I gave [a presentation](https://www.youtube.com/watch?v=6cfifZbhZsE&t=44s) durin
 While it is pretty easy to write test diubles in LabVIEW, it is a task which becomes repetitive and a bit dull.
 Often the same type of code is written or copy/pasted repeatedly in slightly different ways, which makes the tests error prone and unnecessarily difficult to understand.
 
-The reason why LMock exists is to:
+The reasons why LMock exists is to:
 
-- Enable robust mock-based testing
-- Eliminate mistakes caused by manual duplication of boilerplate code
+- Enable robust and low maintenance mock-based testing
+- Eliminate mistakes and inconsistency caused by manual duplication of boilerplate code
 - Improve expressiveness and fault localization of mock-based tests
 - Reduce test time through very fast mock code execution
+- Reduce development time through automatic code generation
 - Minimize friction for creating good design
 
 In many common languages, there is good tooling available for generating and working with mocks.
