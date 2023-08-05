@@ -43,6 +43,7 @@
 		</Item>
 		<Item Name="Expectations" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Exactly.lvlib" Type="Library" URL="../Expectations/Exactly/Exactly.lvlib"/>
 			<Item Name="One.lvlib" Type="Library" URL="../Expectations/One/One.lvlib"/>
 			<Item Name="One or More.lvlib" Type="Library" URL="../Expectations/One or More/One or More.lvlib"/>
 			<Item Name="Never.lvlib" Type="Library" URL="../Expectations/Never/Never.lvlib"/>
@@ -553,7 +554,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{24240D9D-E8FC-41C3-B0F5-B025DF78EFCF}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
