@@ -3,7 +3,7 @@
 This document introduces the basic features and components of LMock.
 For a more detailed discussion on how to write mock-based tests using LMock, please see [this page](../30_Writing%20Tests%20Using%20Mocks).
 
-## Typcial Use Case
+## Typical Use Case
 
 LMock is used to generate test doubles to replace concrete classes in unit and integration tests.
 A LabVIEW interface must be used to define the VI:s which are to be mocked.
