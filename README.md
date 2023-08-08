@@ -59,6 +59,3 @@ These libraries uses and abuses the syntax of Java to generate very elegant test
 If you are new to unit tests and test driven development, learning to use a mocking library is not the best way to get started.
 Mocks are powerful tools, but should only be used when direct verification cannot be achieved.
 While using a toolkit such as LMock can save some time writing, reading, and maintaining code, it is important that the developer understands the underlying concepts.
-LMock throws the LabVIEW syntax a bit over it's head, so it may be confusing when getting familiar with the concept of mocks.
-For this reason I would not generally recommend using LMock before having written your own mocks and you have a good understanding the techniques and concepts.
-But this is just my own experience and you might perceive it differently, so do draw your own conclusions.
