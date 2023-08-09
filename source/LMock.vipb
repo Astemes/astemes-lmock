@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-20 19:46:39" Modified_Date="2023-08-09 19:11:04" Creator="AntonSundqvist" Comments="" ID="f165076f9ac72027a20d0ab6db660e58">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-20 19:46:39" Modified_Date="2023-08-09 20:11:32" Creator="AntonSundqvist" Comments="" ID="0326b62f79e7376cf1d1508c3c9c559e">
   <Library_General_Settings>
     <Package_File_Name>Astemes_lib_LMock</Package_File_Name>
     <Library_Version>1.0.0.5</Library_Version>
@@ -17,7 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>astemes_lib_lunit &gt;=1.3.9.17</Additional_External_Dependencies>
+      <Additional_External_Dependencies>astemes_lib_lunit &gt;=1.0.2.1</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -172,7 +172,6 @@
       <close_labview_before_install>false</close_labview_before_install>
       <restart_labview_after_install>false</restart_labview_after_install>
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
-      <install_into_global_environment>false</install_into_global_environment>
     </LabVIEW>
     <VI_Docs>
       <Edit_VI_Description>false</Edit_VI_Description>
@@ -286,7 +285,7 @@
         <Path>..\builds\LMock\vi.lib\Astemes\LMock\At Least.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>302F846C61968E36E0740E8EC7524589</GUID>
+      <GUID>CF4F9FCD7447BB975D00AB0580BAA8C1</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
