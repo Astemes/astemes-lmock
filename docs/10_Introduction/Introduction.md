@@ -16,8 +16,8 @@ The generated mock can later be updated when the mocked Interface changes.
 
 LMock is designed for mocking LabVIEW Interfaces.
 A mock may be generated from any Interface using the right click menu in the LabVIEW Project Explorer.
-The generated mock class will inherit from the LMock ``Mock.lvclass`` and implement all the dynamic dispatch VI:s of the mocked Interface.
-It will also provide a When VI for each dynamic dispatch VI.
+The generated mock class will inherit from the LMock ``Mock.lvclass`` and implement all the Dynamic Dispatch VI:s of the mocked Interface.
+It will also provide a When VI for each Dynamic Dispatch VI.
 When VI:s are used to declare return values *when* the VI is called.
 If the mocked Interface changes, the mock may be updated using the right-click menu in the project explorer.
 
@@ -41,7 +41,8 @@ Return values from each VI call may optionally be declared using the When API.
 ## Expectations
 
 The expectation API is designed for readability.
-An expectation is declared using one of the provided API VIs together with a call to the expected VI.
+An expectation is declared using one of the provided API VIs together with a call to the expected Dynamic Dispatch VI.
+The Dynamic Dispatch VI is implemented by the mock class and generated through scripting when creating/updating the mock.
 An example is given below.
 
 ![Expectation](img/Expectation.png)
@@ -52,6 +53,8 @@ The following expectations may be used
 - Never - Passes only if the declared VI call was never made
 - One - Passes only if the declared VI call is made exactly once
 - One or More - Passes if the declared VI call is made one or more times
+- Exactly - Passes only if the VI call is made exactly a given number of times
+- At Least - Passes if the VI Call is made at least a given number of times
 
 All the expectations are polymorphic and offers multiple comparison options used to declare *how* VI calls should be compared when validating a mock.
 
