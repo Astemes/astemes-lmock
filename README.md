@@ -59,3 +59,33 @@ These libraries uses and abuses the syntax of Java to generate very elegant test
 If you are new to unit tests and test driven development, learning to use a mocking library is not the best way to get started.
 Mocks are powerful tools, but should only be used when direct verification cannot be achieved.
 While using a toolkit such as LMock can save some time writing, reading, and maintaining code, it is important that the developer understands the underlying concepts.
+
+## Is it free and open source?
+
+Yes, absolutely!
+LMock is released by [Astemes](https://www.astemes.com) under the MIT license.
+If you find it useful, please consider starring the project on GitHub and VIPM.
+
+## Versioning
+
+LMock uses semantic version in the format major.minor.fix.build. 
+The build version is of little significance as it only denotes the number of the build.
+The fix indicates a bug fix, minor feature, or other improvement. 
+As new major features are released or the number of minor feature releases accumulates, the minor version is incremented.
+Minor version updates are uploaded to VIPM and NI Tools Network after an initial testing period.
+These updates should be non-breaking and should not require any changes to the client code.
+A major version update would mean that code developed using an earlier version might need modification.
+
+## Support
+
+LMock is an open source toolkit provided as is and without guarantees by [Astemes](https://www.astemes.com). If you encounter issues, use GitHub Issues to report and track the progress. If you have a suggestion for a solution, please consider making pull request. For paid-for professional support, please [contact Astemes directly](https://www.astemes.com/contact).
+
+## Contribute
+
+If you find LMock useful, please share it with your colleagues and network to help grow the user base.
+Also, consider starring the project on VIPM or GitHub to let us know that you like it.
+If you find a bug, use the Issues section on GitHub.
+To take a more active role, please feel free to fork the project and make a pull request.
+
+This toolkit explores ideas and the paradigm for working with mocks in LabVIEW. 
+Any kind of feedback, such ass usability improvements, missing features, bug reports or general discussion, is always welcome. 
