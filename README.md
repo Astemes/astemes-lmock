@@ -1,6 +1,6 @@
 # Astemes LMock Toolkit
 
-LMock is a LabVIEW mocking framework used for automatically generating and maintaining mock classes.
+LMock is a LabVIEW mocking toolkit used for automatically generating and maintaining mock classes.
 A mock is a test double used, in place of a concrete implementation, when writing automated tests.
 This enables testing units of code in isolation, as the interface to the rest of the system is "mocked".
 Using a mock the behavior of the code under test can be verified, by checking that the expected VI calls are made.
