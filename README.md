@@ -52,7 +52,7 @@ The reasons why LMock exists is to:
 
 In many common languages, there is good tooling available for generating and working with mocks.
 LMock was inspired by the Java libraries [jMock](http://jmock.org/) and [Mockito](http://mockito.org).
-These libraries uses and abuses the syntax of Java to generate very elegant test code, and JMock brings this tradition into LabVIEW with some slightly unorthodox design choices. 
+These libraries uses and abuses the syntax of Java to generate very elegant test code, and LMock brings this tradition into LabVIEW with some slightly unorthodox design choices. 
 
 ## A Recommendation
 
