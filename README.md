@@ -11,6 +11,8 @@ LMock is an add-on to [LUnit](https://www.github.com/astemes/astemes-lunit) and 
 
 The full documentation is available at [https://lmock.astemes.com](https://lmock.astemes.com).
 
+A presentation giving an introduction to LMock was given during GLA Summit 2024 and is available [here](https://www.youtube.com/watch?v=AvenQTc_GCc).
+
 ## Getting Started
 
 Before beginning to use LMock, you will need to have LUnit installed (available at NI Tools Network and VIPM) and you should be familiar with the toolkit.
