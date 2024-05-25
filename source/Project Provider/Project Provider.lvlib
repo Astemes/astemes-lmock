@@ -10,7 +10,13 @@
 	<Item Name="GProviders" Type="Folder">
 		<Item Name="LMock_signed.ini" Type="Document" URL="../GProviders/LMock_signed.ini"/>
 	</Item>
+	<Item Name="Icons" Type="Folder">
+		<Item Name="Overlay.png" Type="Document" URL="../Icons/Overlay.png"/>
+	</Item>
 	<Item Name="LMock" Type="Folder">
+		<Item Name="Global_Init.vi" Type="VI" URL="../LMock/Global_Init.vi"/>
+		<Item Name="Global_Interface.vi" Type="VI" URL="../LMock/Global_Interface.vi"/>
+		<Item Name="Item_Init.vi" Type="VI" URL="../LMock/Item_Init.vi"/>
 		<Item Name="Item_Interface.vi" Type="VI" URL="../LMock/Item_Interface.vi"/>
 		<Item Name="Item_OnCommand.vi" Type="VI" URL="../LMock/Item_OnCommand.vi"/>
 		<Item Name="Item_OnPopupMenu.vi" Type="VI" URL="../LMock/Item_OnPopupMenu.vi"/>
