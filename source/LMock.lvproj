@@ -585,7 +585,7 @@
 				<Property Name="Destination[4].path" Type="Path">../builds/NI_AB_PROJECTNAME/examples/Astemes/LMock/Serial Driver</Property>
 				<Property Name="Destination[4].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Source[0].itemID" Type="Str">{038B2718-24B1-4124-AE72-D117B7C3C93B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B7E520EA-09FF-4777-8D7A-2E5C434AFF3A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -720,6 +720,28 @@
 				<Property Name="Source[27].newName" Type="Str">LMock_</Property>
 				<Property Name="Source[27].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[27].type" Type="Str">Container</Property>
+				<Property Name="Source[28].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[28].itemID" Type="Ref">/My Computer/Expectations/At Least.lvlib</Property>
+				<Property Name="Source[28].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[28].newName" Type="Str">LMock At Least.lvlib</Property>
+				<Property Name="Source[28].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[28].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[28].properties[1].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[28].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[28].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[28].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[28].type" Type="Str">Library</Property>
+				<Property Name="Source[29].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[29].itemID" Type="Ref">/My Computer/Expectations/Exactly.lvlib</Property>
+				<Property Name="Source[29].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[29].newName" Type="Str">LMock Exactly.lvlib</Property>
+				<Property Name="Source[29].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[29].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[29].properties[1].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[29].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[29].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[29].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[29].type" Type="Str">Library</Property>
 				<Property Name="Source[3].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
@@ -776,7 +798,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Excluded Dependencies</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">28</Property>
+				<Property Name="SourceCount" Type="Int">30</Property>
 			</Item>
 		</Item>
 	</Item>
