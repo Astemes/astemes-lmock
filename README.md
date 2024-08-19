@@ -7,6 +7,7 @@ Using a mock the behavior of the code under test can be verified, by checking th
 Furthermore, outputs from calls to the mocked objects can be predefined to stimulate and control the system under test.
 The LMock toolkit features an expressive API, powerful scripting features, and detailed failure descriptions.
 
+The easiest way to install LMock is through [VIPM](https://www.vipm.io/package/astemes_lib_lmock/).
 LMock is an add-on to [LUnit](https://www.github.com/astemes/astemes-lunit) and is maintained by Astemes under an MIT license.
 
 The full documentation is available at [https://lmock.astemes.com](https://lmock.astemes.com).
