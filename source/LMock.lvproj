@@ -549,7 +549,6 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Create.vi" Type="VI" URL="../../../../Users/AntonSundqvist/AppData/Local/Temp/lvtemporary_952957/Create.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LMock" Type="Source Distribution">
