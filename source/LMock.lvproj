@@ -43,8 +43,6 @@
 		</Item>
 		<Item Name="Expectations" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Deprecated At Least.lvlib" Type="Library" URL="../Expectations/Deprecated At Least/Deprecated At Least.lvlib"/>
-			<Item Name="Deprecated Exactly.lvlib" Type="Library" URL="../Expectations/Deprecated Exactly/Deprecated Exactly.lvlib"/>
 			<Item Name="At Least.lvlib" Type="Library" URL="../Expectations/At Least/At Least.lvlib"/>
 			<Item Name="Exactly.lvlib" Type="Library" URL="../Expectations/Exactly/Exactly.lvlib"/>
 			<Item Name="One.lvlib" Type="Library" URL="../Expectations/One/One.lvlib"/>
@@ -551,6 +549,7 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Create.vi" Type="VI" URL="../../../../Users/AntonSundqvist/AppData/Local/Temp/lvtemporary_952957/Create.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LMock" Type="Source Distribution">
@@ -571,7 +570,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{24240D9D-E8FC-41C3-B0F5-B025DF78EFCF}</Property>
-				<Property Name="Bld_version.build" Type="Int">13</Property>
+				<Property Name="Bld_version.build" Type="Int">15</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
@@ -586,7 +585,7 @@
 				<Property Name="Destination[4].path" Type="Path">../builds/NI_AB_PROJECTNAME/examples/Astemes/LMock/Serial Driver</Property>
 				<Property Name="Destination[4].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E39D920E-BA18-45C8-84B4-9DA35BC6EB58}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{882B9E00-9AD2-4A7A-97C7-16F3A419C7ED}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -757,28 +756,6 @@
 				<Property Name="Source[3].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="Source[30].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[30].itemID" Type="Ref">/My Computer/Expectations/Deprecated At Least.lvlib</Property>
-				<Property Name="Source[30].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[30].newName" Type="Str">At Least.lvlib</Property>
-				<Property Name="Source[30].properties[0].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[30].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[30].properties[1].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[30].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[30].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[30].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[30].type" Type="Str">Library</Property>
-				<Property Name="Source[31].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[31].itemID" Type="Ref">/My Computer/Expectations/Deprecated Exactly.lvlib</Property>
-				<Property Name="Source[31].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[31].newName" Type="Str">Exactly.lvlib</Property>
-				<Property Name="Source[31].properties[0].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[31].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[31].properties[1].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[31].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[31].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[31].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[31].type" Type="Str">Library</Property>
 				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">3</Property>
@@ -821,7 +798,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Excluded Dependencies</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">32</Property>
+				<Property Name="SourceCount" Type="Int">30</Property>
 			</Item>
 		</Item>
 	</Item>

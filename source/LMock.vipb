@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-20 19:46:39" Modified_Date="2024-06-10 09:34:18" Creator="AntonSundqvist" Comments="" ID="3768103d4a63adf91be578384969ba93">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-20 19:46:39" Modified_Date="2024-11-26 09:26:52" Creator="AntonSundqvist" Comments="" ID="b45a197bddaaede4c99e3f2dbc8fba3c">
   <Library_General_Settings>
     <Package_File_Name>Astemes_lib_LMock</Package_File_Name>
-    <Library_Version>1.0.0.5</Library_Version>
+    <Library_Version>1.0.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds\LMock</Library_Source_Folder>
-    <Library_Output_Folder>..\builds\LMock</Library_Output_Folder>
+    <Library_Output_Folder>..\builds\vipm</Library_Output_Folder>
     <Company_Name>Astemes</Company_Name>
     <Library_Summary/>
     <Library_License>MIT</Library_License>
@@ -40,9 +40,8 @@ For full documentation, please see https://lmock.astemes.com/</Description>
       <Copyright/>
       <Packager/>
       <URL>https://lmock.astemes.com/</URL>
-      <Release_Notes>- Make upstream errors flow through mock calls (requires default connector pane 4224 layout for now).
-- Add overlay to mock classes in LabVIEW project explorer to distinguise mock classes from regular classes.
-- Rename Exactly and At Least expectations to conform to naming convention. Old vi:s still included and marked as deprecated to avoid breakin change.</Release_Notes>
+      <Release_Notes>- Mark Create.vi as separate compiled code
+- Delete deprecated code</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -294,7 +293,7 @@ For full documentation, please see https://lmock.astemes.com/</Description>
         <Path>..\builds\LMock\vi.lib\Astemes\LMock\At Least.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6979B7B8C231CF97D9C5A2BAE1DB5741</GUID>
+      <GUID>826DD77C1F0DC8E6111763E128CDC5AF</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
