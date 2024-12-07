@@ -7,6 +7,7 @@ pipeline {
 		REPO_URL = "https://github.com/astemes/astemes-lmock"
 		AUTHOR = "Anton Sundqvist"
 		INITIAL_RELEASE = 2023
+		LV_TEST_SUITE_PATH = "source\\Test Suite.lvproj"
 		LV_PROJECT_PATH = "source\\LMock.lvproj"
 		LV_BUILD_SPEC = "LMock"
 		LV_VIPB_PATH = "source\\LMock.vipb"
@@ -27,7 +28,7 @@ pipeline {
 		}
 		stage('Test') {
 			steps {
-				runLUnit "${LV_PROJECT_PATH}"
+				runLUnit "${LV_TEST_SUITE_PATH}"
 				// Empty results set to true for the template to pass build
 				junit testResults: "reports\\*.xml", allowEmptyResults: true
 			}
