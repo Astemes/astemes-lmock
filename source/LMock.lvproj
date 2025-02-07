@@ -586,6 +586,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{24240D9D-E8FC-41C3-B0F5-B025DF78EFCF}</Property>
+				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
 				<Property Name="Bld_version.build" Type="Int">15</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -601,7 +602,7 @@
 				<Property Name="Destination[4].path" Type="Path">../builds/NI_AB_PROJECTNAME/examples/Astemes/LMock/Serial Driver</Property>
 				<Property Name="Destination[4].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A9B42E8A-18B7-4711-9AC0-383678C09F8C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FA4432BE-352A-478A-856C-8F90E89E959E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
