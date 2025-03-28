@@ -445,6 +445,7 @@
 			<Item Name="mxLvProvider.mxx" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/mxLvProvider.mxx"/>
 			<Item Name="mxLvSetPopupMenu.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvSetPopupMenu.vi"/>
 		</Item>
+		<Item Name="LICENSE.md" Type="Document" URL="../../LICENSE.md"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
@@ -583,7 +584,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{24240D9D-E8FC-41C3-B0F5-B025DF78EFCF}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
+				<Property Name="Bld_version.build" Type="Int">17</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
@@ -598,7 +599,7 @@
 				<Property Name="Destination[4].path" Type="Path">../builds/NI_AB_PROJECTNAME/examples/Astemes/LMock/Serial Driver</Property>
 				<Property Name="Destination[4].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2E08E19D-E730-4820-8F7A-C48396080E13}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{65EAAE56-6A90-47E1-9B6A-C7ACB9DE7297}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -774,6 +775,9 @@
 				<Property Name="Source[30].itemID" Type="Ref">/My Computer/astemes-string-diff-utils</Property>
 				<Property Name="Source[30].newName" Type="Str">LMock_</Property>
 				<Property Name="Source[30].type" Type="Str">Container</Property>
+				<Property Name="Source[31].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[31].itemID" Type="Ref">/My Computer/LICENSE.md</Property>
+				<Property Name="Source[31].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">3</Property>
@@ -816,7 +820,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Excluded Dependencies</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">31</Property>
+				<Property Name="SourceCount" Type="Int">32</Property>
 			</Item>
 		</Item>
 	</Item>
